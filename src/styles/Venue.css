@@ -1,0 +1,96 @@
+.venue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.venue .venueBox {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.venue h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 20px;
+}
+
+.venue .venueBox .right {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.venue .venueBox .left {
+    width: 50%;
+    height: 100%;
+}
+
+.venue .venueBox .left h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 20px;
+}
+
+.venue .venueBox .left div {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin: 20px;
+}
+
+.venue .venueBox .left div p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin: 20px;
+}
+
+.venue .venueBox .left div p a {
+    color: #000;
+}
+
+/* mediaquires */
+
+@media (max-width: 768px) {
+    .venue .venueBox {
+        flex-direction: column;
+    }
+
+    .venue .venueBox .left {
+        width: 90%;
+    }
+
+    .venue .venueBox .right {
+        width: 90%;
+    }
+
+    .venue h2 {
+        font-size: 1.6rem;
+    }
+
+    .venue .venueBox .left div p {
+        margin: 0;
+    }
+
+    .venue .venueBox .left div {
+        margin: 0;
+    }
+
+    h3 {
+        display: none;
+    }
+}

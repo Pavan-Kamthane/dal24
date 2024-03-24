@@ -1,0 +1,167 @@
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.banner img {
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+
+/* banner end */
+
+/* about start */
+
+.about {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.aboutBox {
+    width: 90%;
+    min-height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.aboutBox .left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutBox .left p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.aboutBox .right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutBox .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.organize {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.organize h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.organize .orgs {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.organize .orgs .org {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.organize .org img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.organize .org h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+
+}
+
+
+/* Mediaquires */
+
+@media screen and (max-width: 768px) {
+    .banner {
+        margin-bottom: 50px;
+
+    }
+
+    .aboutBox {
+        flex-direction: column;
+    }
+
+    .aboutBox .left {
+        width: 90%;
+    }
+
+    .aboutBox .right {
+        width: 90%;
+    }
+
+    .organize .orgs {
+        flex-direction: column;
+    }
+
+    .organize .orgs .org {
+        width: 90%;
+    }
+
+
+}
