@@ -55,320 +55,333 @@ const CommitteeList = ({ title, items }) => {
     </div>
   );
 };
+const CommitteeList2 = ({ title, items1, items2 }) => {
+  return (
+    <div className="committeeBoxList2">
+      <h2>{title}</h2>
+      <hr />
+      <div className="biglist">
+        <ul>
+          {items1.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+        <ul>
+          {items2.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+const patrons = [
+  {
+    name: "Shri. Kamal Kishor Kadam",
+    image: patron1,
+  },
+];
+
+const organizingChair = [
+  {
+    name: "Guru D S",
+    image: organizingChair1,
+  },
+];
+
+const organizingSecretary = [
+  {
+    name: "Archana M. Rajurkar",
+    image: organizingSecretary1,
+  },
+];
+
+const programChairs = [
+  {
+    name: "Vinay Kumar Nataraja",
+    image: programChairs1,
+  },
+  {
+    name: "Mohammed Javed",
+    image: programChairs2,
+  },
+];
+
+const generalChairs = [
+  {
+    name: "Anil K Jain",
+    image: generalChairs1,
+  },
+  {
+    name: "Carvallo De F A T",
+    image: defaultImg,
+  },
+  {
+    name: "Geeta S. Lathkar",
+    image: generalChairs2,
+  },
+  {
+    name: "Ichino Mr",
+    image: generalChairs3,
+  },
+  {
+    name: "Nagabhushan P",
+    image: generalChairs4,
+  },
+  {
+    name: "Niranjan N. Chiplunkar",
+    image: generalChairs5,
+  },
+  {
+    name: "Tan C L",
+    image: defaultImg,
+  },
+];
+
+const organizingCommittee = [
+  {
+    name: "Joshi M. Y",
+    image: organizingCommittee1,
+  },
+  {
+    name: "Hashmi, S A",
+    image: organizingCommittee2,
+  },
+  {
+    name: "Salve S. G",
+    image: organizingCommittee3,
+  },
+  {
+    name: "Kapre B. S",
+    image: organizingCommittee4,
+  },
+  {
+    name: "Md. Aijaz Ahmed",
+    image: organizingCommittee5,
+  },
+  {
+    name: "Pawar P. P",
+    image: organizingCommittee6,
+  },
+  {
+    name: "Wagre S. S",
+    image: organizingCommittee7,
+  },
+  {
+    name: "Pariyal N. P",
+    image: organizingCommittee8,
+  },
+  {
+    name: "Aghor D. B",
+    image: organizingCommittee9,
+  },
+  {
+    name: "Chennoji M. R",
+    image: organizingCommittee10,
+  },
+  {
+    name: "Bisen R. G",
+    image: organizingCommittee11,
+  },
+  {
+    name: "Kale J. S",
+    image: organizingCommittee12,
+  },
+  {
+    name: "Pande N. S",
+    image: organizingCommittee13,
+  },
+  {
+    name: "Bhandare M. N",
+    image: organizingCommittee14,
+  },
+];
+
+const advisoryPanelItems = [
+  "D. B. Phatak, India",
+  "V. N. Gudivada, USA",
+  "K. C. Santosh, USA",
+  "Jose J, Scotland",
+  "Kanakanahalli M, Singapore",
+  "Kirthiga Reddy, USA",
+  "Koen De Bosschere, Belgium",
+  "Leedham G, Australia",
+  "Punitha P, United Kingdom",
+  "Vallet D, Spain",
+  "Anirudh Joshi, India",
+  "Anupam Agrawal, India",
+  "S. Murala, India",
+  "Kokre M. B., India",
+  "Hemantha Kumar G., India",
+  "Lalit Kumar Awasthi, India",
+  "Mayank Dave, India",
+  "Mohit P. Tahiliani, India",
+  "Bhirud, India",
+  "Murthy M N, India",
+  "N.Ch.Sriman Narayana Iyengar, India",
+  "Nagendraswamy H S, India",
+  "Rajendra Hegadi, India",
+  "Ram Murthy Garimella, India",
+  "Ramakrishnan A G, India",
+  "Somayajulu,DVLN, India",
+  "Srinivas Gosala, India",
+  "Vasudev T, India",
+];
+
+const steeringCommitteeItems = [
+  "Amitava Das, India",
+  "Pal U, India",
+  "Rajendra Prasath, Norway",
+  "Shekar B H, India",
+  "Vishwanath P, India",
+];
+
+const programCommitteeItems = [
+  "Ahlame Chouakria Douzali, France",
+  "Andreas Dengel, Germany",
+  "Arun A Ross, USA",
+  "Bhanu Prasad, USA",
+  "Blumenstein, Australia",
+  "Du-Ming Tsai, Taiwan",
+  "Francesc J Ferri, Spain",
+  "Graham Leedham, Australia",
+  "Jemal Abawajy, Australia",
+  "Joseph Liados, France",
+  "Juergen Abel, Germany",
+  "Karthik Nandakumar, Singapore",
+  "Manoj V. N. V, Ethiopia",
+  "Mohan S Kanakanahalli, Singapore",
+  "Morteza Marzarani, USA",
+  "Mireille Summa, Paris",
+  "Mohammed Kamel, USA",
+  "Raghavendra R, Norway",
+  "Kiranagi B B, USA",
+  "Naresh Y G, Ireland",
+  "Rosanna Verde, Italy",
+  "Santhoshkumar V, UAE",
+  "Saragur N Srihari, USA",
+  "Saritha Arunkumar, UK",
+  "Shivakumara P, UK",
+  "Shreekanta Prakash H N, USA",
+  "Sudeep Sarkar, USA",
+  "Tabbone S, France",
+  "Anami B S, India",
+  "Anand Kumar K R, India",
+  "Anantha Narayana V S, India",
+  "Angadi S A, India",
+  "Anil Kumar, India",
+  "Annappa, India",
+  "Anoop M Namboodiri, India",
+  "Anshu S Anand, India",
+  "Antony P J, India",
+  "Aradhya V N M, India",
+  "Archana M R, India",
+  "Arun Agarwal, India",
+  "Ashwatha Kumar, India",
+  "Balachandra, India",
+  "Bhat P.V, India",
+  "Biswas P K, India",
+  "Brijesh Iyer, India",
+  "Chanda B, India",
+  "Chennamma H R, India",
+  "Chethan H K, India",
+  "Chethana Kumara B M, India",
+  "Deepa Deshpande, India",
+  "Dhandra B V, India",
+  "Dinesh R, India",
+  "Ganesh Aithal, India",
+  "Girish Chowdhary, India",
+
+  "Gopalakrishna N Kini, India",
+  "Hanmandulu M, India",
+  "Harish B S, India",
+  "Harisha K S, India",
+  "Imran M, India",
+  "Jagadeesh Prabhu, India",
+  "Jagannathan S, India",
+  "Jalesh, India",
+  "Jharna Majumdhar, India",
+  "Joshi Y V, India",
+  "Jyothi Shetty, India",
+  "K.P. Singh, India",
+  "Karthik Pai B H, India",
+];
+
+const programCommitteeItems2 = [
+  "Kavitha, India",
+  "Kiwalekar, A W, India",
+  "Linganagouda Kulkarni, India",
+  "Mahadev Prasanna, India",
+  "Mahamad Suhil, India",
+  "Mahesh Prasanna, India",
+  "Mallikarjuna P B, India",
+  "Manish Kumar, India",
+  "Manjunath S S, India",
+  "Manjunath S, India",
+  "Manjunatha K S, India",
+  "Manohar N, India",
+  "Manohar Pai M M, India",
+  "Manthalkar, R R, India",
+  "Mayank Vasta, India",
+  "Meenakshi, India",
+  "Mohan Kumar H P, India",
+  "Nagabhushan T N, India",
+  "Nagappa U Bhajantri, India",
+  "Nagasundar K B, India",
+  "Nagesh H R, India",
+  "Narayanan N K, India",
+  "Nirmala S, India",
+  "Pavitra Bhade, India",
+  "Pradeep Kumar R, India",
+  "Prakash H N, India",
+  "Prasad B G, India",
+  "Prasanna Kumar H R, India",
+  "Preethi M, India",
+  "Raghavendra Achar, India",
+  "Raghavendra Rao G, India",
+  "Raju G, India",
+  "Raju, G T, India",
+  "Ramakrishnan K R, India",
+  "Ramar K, India",
+  "Ramesh Babu, India",
+  "Ravat Awale, India",
+  "Ravi T V, India",
+  "Ravikumar M, India",
+  "Ravishankar, India",
+  "Revathi K, India",
+  "Roshan Fernandes, India",
+  "Sahana D Gowda, India",
+  "Sanjay Pandey, India",
+  "Satish Singh, India",
+  "Shankar Nair A, India",
+  "Sharad Sinha, India",
+  "Shiv Ram, Dubey, India",
+  "Shivamurthy H G, India",
+  "ShrikantaMurthy K, India",
+  "Soumya A, India",
+  "Sridhar V, India",
+  "Srikanta Prakash H N, India",
+  "Subbareddy N V, India",
+  "Subhadip Basu, India",
+  "Sumith N, India",
+  "Sumitha Basu, India",
+  "Suraj M G, India",
+  "Suresh P, India",
+  "Suryakanth V Gangashetty, India",
+  "T.G.Basavaraju, India",
+  "Varsha Patil, India",
+  "Venugopala P S, India",
+  "Vijaya P, India",
+  "Vimuktha E J, India",
+  "Wahi A, India",
+  "Yuvaraju B N, India",
+];
 
 const Committee = () => {
-  const patrons = [
-    {
-      name: "Shri. Kamal Kishor Kadam",
-      image: patron1,
-    },
-  ];
-
-  const organizingChair = [
-    {
-      name: "Guru D S",
-      image: organizingChair1,
-    },
-  ];
-
-  const organizingSecretary = [
-    {
-      name: "Archana M. Rajurkar",
-      image: organizingSecretary1,
-    },
-  ];
-
-  const programChairs = [
-    {
-      name: "Vinay Kumar Nataraja",
-      image: programChairs1,
-    },
-    {
-      name: "Mohammed Javed",
-      image: programChairs2,
-    },
-  ];
-
-  const generalChairs = [
-    {
-      name: "Anil K Jain",
-      image: generalChairs1,
-    },
-    {
-      name: "Carvallo De F A T",
-      image: defaultImg,
-    },
-    {
-      name: "Geeta S. Lathkar",
-      image: generalChairs2,
-    },
-    {
-      name: "Ichino Mr",
-      image: generalChairs3,
-    },
-    {
-      name: "Nagabhushan P",
-      image: generalChairs4,
-    },
-    {
-      name: "Niranjan N. Chiplunkar",
-      image: generalChairs5,
-    },
-    {
-      name: "Tan C L",
-      image: defaultImg,
-    },
-  ];
-
-  const organizingCommittee = [
-    {
-      name: "Joshi M. Y",
-      image: organizingCommittee1,
-    },
-    {
-      name: "Hashmi, S A",
-      image: organizingCommittee2,
-    },
-    {
-      name: "Salve S. G",
-      image: organizingCommittee3,
-    },
-    {
-      name: "Kapre B. S",
-      image: organizingCommittee4,
-    },
-    {
-      name: "Md. Aijaz Ahmed",
-      image: organizingCommittee5,
-    },
-    {
-      name: "Pawar P. P",
-      image: organizingCommittee6,
-    },
-    {
-      name: "Wagre S. S",
-      image: organizingCommittee7,
-    },
-    {
-      name: "Pariyal N. P",
-      image: organizingCommittee8,
-    },
-    {
-      name: "Aghor D. B",
-      image: organizingCommittee9,
-    },
-    {
-      name: "Chennoji M. R",
-      image: organizingCommittee10,
-    },
-    {
-      name: "Bisen R. G",
-      image: organizingCommittee11,
-    },
-    {
-      name: "Kale J. S",
-      image: organizingCommittee12,
-    },
-    {
-      name: "Pande N. S",
-      image: organizingCommittee13,
-    },
-    {
-      name: "Bhandare M. N",
-      image: organizingCommittee14,
-    },
-  ];
-
-  const advisoryPanelItems = [
-    "D. B. Phatak, India",
-    "V. N. Gudivada, USA",
-    "K. C. Santosh, USA",
-    "Jose J, Scotland",
-    "Kanakanahalli M, Singapore",
-    "Kirthiga Reddy, USA",
-    "Koen De Bosschere, Belgium",
-    "Leedham G, Australia",
-    "Punitha P, United Kingdom",
-    "Vallet D, Spain",
-    "Anirudh Joshi, India",
-    "Anupam Agrawal, India",
-    "S. Murala, India",
-    "Kokre M. B., India",
-    "Hemantha Kumar G., India",
-    "Lalit Kumar Awasthi, India",
-    "Mayank Dave, India",
-    "Mohit P. Tahiliani, India",
-    "Bhirud, India",
-    "Murthy M N, India",
-    "N.Ch.Sriman Narayana Iyengar, India",
-    "Nagendraswamy H S, India",
-    "Rajendra Hegadi, India",
-    "Ram Murthy Garimella, India",
-    "Ramakrishnan A G, India",
-    "Somayajulu,DVLN, India",
-    "Srinivas Gosala, India",
-    "Vasudev T, India",
-  ];
-
-  const steeringCommitteeItems = [
-    "Amitava Das, India",
-    "Pal U, India",
-    "Rajendra Prasath, Norway",
-    "Shekar B H, India",
-    "Vishwanath P, India"
-  ];
-
-  const programCommitteeItems = [
-    "Ahlame Chouakria Douzali, France",
-    "Andreas Dengel, Germany",
-    "Arun A Ross, USA",
-    "Bhanu Prasad, USA",
-    "Blumenstein, Australia",
-    "Du-Ming Tsai, Taiwan",
-    "Francesc J Ferri, Spain",
-    "Graham Leedham, Australia",
-    "Jemal Abawajy, Australia",
-    "Joseph Liados, France",
-    "Juergen Abel, Germany",
-    "Karthik Nandakumar, Singapore",
-    "Manoj V. N. V, Ethiopia",
-    "Mohan S Kanakanahalli, Singapore",
-    "Morteza Marzarani, USA",
-    "Mireille Summa, Paris",
-    "Mohammed Kamel, USA",
-    "Raghavendra R, Norway",
-    "Kiranagi B B, USA",
-    "Naresh Y G, Ireland",
-    "Rosanna Verde, Italy",
-    "Santhoshkumar V, UAE",
-    "Saragur N Srihari, USA",
-    "Saritha Arunkumar, UK",
-    "Shivakumara P, UK",
-    "Shreekanta Prakash H N, USA",
-    "Sudeep Sarkar, USA",
-    "Tabbone S, France",
-    "Anami B S, India",
-    "Anand Kumar K R, India",
-    "Anantha Narayana V S, India",
-    "Angadi S A, India",
-    "Anil Kumar, India",
-    "Annappa, India",
-    "Anoop M Namboodiri, India",
-    "Anshu S Anand, India",
-    "Antony P J, India",
-    "Aradhya V N M, India",
-    "Archana M R, India",
-    "Arun Agarwal, India",
-    "Ashwatha Kumar, India",
-    "Balachandra, India",
-    "Bhat P.V, India",
-    "Biswas P K, India",
-    "Brijesh Iyer, India",
-    "Chanda B, India",
-    "Chennamma H R, India",
-    "Chethan H K, India",
-    "Chethana Kumara B M, India",
-    "Deepa Deshpande, India",
-    "Dhandra B V, India",
-    "Dinesh R, India",
-    "Ganesh Aithal, India",
-    "Girish Chowdhary, India",
-    "Gopalakrishna N Kini, India",
-    "Hanmandulu M, India",
-    "Harish B S, India",
-    "Harisha K S, India",
-    "Imran M, India",
-    "Jagadeesh Prabhu, India",
-    "Jagannathan S, India",
-    "Jalesh, India",
-    "Jharna Majumdhar, India",
-    "Joshi Y V, India",
-    "Jyothi Shetty, India",
-    "K.P. Singh, India",
-    "Karthik Pai B H, India",
-    "Kavitha, India",
-    "Kiwalekar, A W, India",
-    "Linganagouda Kulkarni, India",
-    "Mahadev Prasanna, India",
-    "Mahamad Suhil, India",
-    "Mahesh Prasanna, India",
-    "Mallikarjuna P B, India",
-    "Manish Kumar, India",
-    "Manjunath S S, India",
-    "Manjunath S, India",
-    "Manjunatha K S, India",
-    "Manohar N, India",
-    "Manohar Pai M M, India",
-    "Manthalkar, R R, India",
-    "Mayank Vasta, India",
-    "Meenakshi, India",
-    "Mohan Kumar H P, India",
-    "Nagabhushan T N, India",
-    "Nagappa U Bhajantri, India",
-    "Nagasundar K B, India",
-    "Nagesh H R, India",
-    "Narayanan N K, India",
-    "Nirmala S, India",
-    "Pavitra Bhade, India",
-    "Pradeep Kumar R, India",
-    "Prakash H N, India",
-    "Prasad B G, India",
-    "Prasanna Kumar H R, India",
-    "Preethi M, India",
-    "Raghavendra Achar, India",
-    "Raghavendra Rao G, India",
-    "Raju G, India",
-    "Raju, G T, India",
-    "Ramakrishnan K R, India",
-    "Ramar K, India",
-    "Ramesh Babu, India",
-    "Ravat Awale, India",
-    "Ravi T V, India",
-    "Ravikumar M, India",
-    "Ravishankar, India",
-    "Revathi K, India",
-    "Roshan Fernandes, India",
-    "Sahana D Gowda, India",
-    "Sanjay Pandey, India",
-    "Satish Singh, India",
-    "Shankar Nair A, India",
-    "Sharad Sinha, India",
-    "Shiv Ram, Dubey, India",
-    "Shivamurthy H G, India",
-    "ShrikantaMurthy K, India",
-    "Soumya A, India",
-    "Sridhar V, India",
-    "Srikanta Prakash H N, India",
-    "Subbareddy N V, India",
-    "Subhadip Basu, India",
-    "Sumith N, India",
-    "Sumitha Basu, India",
-    "Suraj M G, India",
-    "Suresh P, India",
-    "Suryakanth V Gangashetty, India",
-    "T.G.Basavaraju, India",
-    "Varsha Patil, India",
-    "Venugopala P S, India",
-    "Vijaya P, India",
-    "Vimuktha E J, India",
-    "Wahi A, India",
-    "Yuvaraju B N, India"
-    ];
-  
-  
   return (
     <div className="Committee">
       <h1>Committee</h1>
-      {/* <div className="committeeBox">
-        <h2>Patrons</h2>
-        <div className="committeeBoxMembers">
-          <div className="committeeBoxMember">
-            <img src={patron1} alt="" />
-            <h3>Shri. Kamal Kishor Kadam</h3>
-          </div>
-          
-        </div>
-      </div> */}
 
       <CommitteeBox title="Patrons" members={patrons} />
       <CommitteeBox title="Organizing Chair" members={organizingChair} />
@@ -383,9 +396,18 @@ const Committee = () => {
         members={organizingCommittee}
       />
 
-      <CommitteeList title="Advisory Panel" items={advisoryPanelItems} />
-      <CommitteeList title="Steering Committee" items={steeringCommitteeItems} />
-      <CommitteeList title="Program Committee" items={programCommitteeItems} />
+      <div className="twocolumn">
+        <CommitteeList title="Advisory Panel" items={advisoryPanelItems} />
+        <CommitteeList
+          title="Steering Committee"
+          items={steeringCommitteeItems}
+        />
+        <CommitteeList2
+          title="Program Committee"
+          items1={programCommitteeItems}
+          items2={programCommitteeItems2}
+        />
+      </div>
     </div>
   );
 };
