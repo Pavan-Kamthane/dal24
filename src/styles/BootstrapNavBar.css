@@ -1,39 +1,54 @@
-/* BootstrapNavBar.css */
-
-
-
-.navbar-brand,
-.navbar-nav .nav-link {
-    color: #ffffff !important;
-    /* White text color */
-    font-size: 1.1rem;
-    margin: 0 5px;
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #333; */
 }
 
+.navbar>.container {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
 
+}
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    font-size: 2rem;
-    margin-right: 30px;
+    color: #fff !important;
+    font-size: 1.5rem;
+    align-self: flex-start !important;
 }
 
 .navbar-brand img {
     width: 50px;
     height: 50px;
-    object-fit: contain;
-    border-radius: 100%;
+    border-radius: 25px;
 }
 
+.navbar-brand h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
 
+.me-auto {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
-/* Navbar.Toggle */
+.nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .navbar-toggler {
-    border-color: #ffffff;
-    /* White border color */
-    color: white;
-    background-color: #ffffff;
+    /* color: #fff !important; */
+    background-color: #fff !important;
 }

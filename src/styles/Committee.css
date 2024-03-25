@@ -1,0 +1,90 @@
+.Committee {
+    width: 100%;
+    height: auto;
+}
+
+.Committee h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Committee .committeeBox {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.Committee .committeeBox h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.Committee .committeeBox .committeeBoxMembers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.Committee .committeeBox .committeeBoxMembers .committeeBoxMember {
+    width: 300px;
+    height: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    text-align: center;
+}
+
+.Committee .committeeBox .committeeBoxMembers .committeeBoxMember img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 7px solid rgb(106, 0, 255);
+    padding: 3px;
+}
+
+.Committee .committeeBox .committeeBoxMembers .committeeBoxMember h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+
+.Committee .committeeBoxList {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    padding: 0 250px;
+}
+
+.Committee .committeeBoxList h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.Committee .committeeBoxList ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+/* mediaquires */
+
+@media screen and (max-width: 768px) {
+    .Committee .committeeBox .committeeBoxMembers .committeeBoxMember {
+        width: 100%;
+    }
+
+    .Committee .committeeBoxList {
+        padding: 0 50px;
+    }
+}

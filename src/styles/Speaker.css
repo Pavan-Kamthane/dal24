@@ -1,0 +1,53 @@
+.speakers {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.speakers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.speakers .speakerBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.speakers .speakerBox .speaker {
+    width: 300px;
+    height: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.speakers .speakerBox .speaker img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 7px solid rgb(106, 0, 255);
+    padding: 3px;
+}
+
+.speakers .speakerBox .speaker h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+/* mediaquires */
+
+@media screen and (max-width: 768px) {
+    .speakers .speakerBox .speaker {
+        width: 100%;
+    }
+}

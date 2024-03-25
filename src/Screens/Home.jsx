@@ -1,5 +1,5 @@
 import React from "react";
-import bgMain from "../img/home/main bg.png";
+import bgMain from "../img/home/bg main 3.png";
 import aboutConf from "../img/home/about conf1.jpg";
 import "../styles/home.css";
 import org1 from "../img/home/mgmlogo.jpeg";

@@ -1,0 +1,70 @@
+.callforpapers {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.callforpapers h2 {
+    font-size: 2em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.callforpapers p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.callforpapers ul {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.callforpapers ul li {
+    margin-bottom: 10px;
+}
+
+.callforpapers ul h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.callforpapers h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding: 0 100px;
+}
+
+/* mediquires */
+
+@media screen and (max-width: 768px) {
+    .callforpapers p {
+        padding: 0 25px;
+    }
+
+    .callforpapers h2 {
+        padding: 0 25px;
+        font-size: 1.5em;
+        text-align: justify;
+
+        font-weight: 700;
+    }
+
+    .callforpapers ul {
+        padding: 0 35px;
+    }
+
+    .callforpapers h3 {
+        padding: 0 25px;
+    }
+
+    .callforpapers ul h4 {
+        /* padding: 0 35px; */
+        font-size: 1.2em;
+    }
+}

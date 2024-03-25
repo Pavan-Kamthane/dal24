@@ -1,13 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { Nav, Navbar, Container, NavDropdown, Button } from "react-bootstrap";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "../styles/BootstrapNavBar.css";
 import collegeLogo2 from "../img/home/mgmlogo.jpeg";
+
 export default function BootstrapNavBar() {
   return (
     <Navbar bg="transpernt" expand="md">
       <Container>
-        {/* <Navbar.Brand href="#home">Navbar Brand</Navbar.Brand> */}
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/">
           <img
             alt=""
             src={collegeLogo2}
@@ -20,29 +21,44 @@ export default function BootstrapNavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/comitee">Commitee</Nav.Link>
-            <Nav.Link href="/speaker">Speakers</Nav.Link>
+            {/* Use Link component instead of Nav.Link */}
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              About Us
+            </Nav.Link>
+            <Nav.Link as={Link} to="/comitee">
+              Commitee
+            </Nav.Link>
+            <Nav.Link as={Link} to="/speaker">
+              Speakers
+            </Nav.Link>
             <NavDropdown title="For Attendees" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/schedule">
+              <NavDropdown.Item as={Link} to="/schedule">
                 Schedule
               </NavDropdown.Item>
-              <NavDropdown.Item href="/venue">
+              <NavDropdown.Item as={Link} to="/venue">
                 Venue
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Call For Paper" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/callForPaper">
+              <NavDropdown.Item as={Link} to="/callForPaper">
                 Call For Paper
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Important Dates
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/registration">Registration</Nav.Link>
-            <Nav.Link href="/contact">Contact Us</Nav.Link>
-            <Nav.Link href="/submit"><Button variant="light">Submit</Button>{' '}</Nav.Link>
+            <Nav.Link as={Link} to="/registration">
+              Registration
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact Us
+            </Nav.Link>
+            <Nav.Link as={Link} to="/submit">
+              <Button variant="light">Submit</Button>{" "}
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

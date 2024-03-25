@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
 }
+
+/* scrollbar of color  linear-gradient(45deg, #9500ff, #630092, #9500ff); */
+
+/* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1c1c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #9500ff, #630092, #9500ff);
+  ;
+  width: 5px;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #9500ff, #630092, #9500ff);
+  cursor: pointer;
+}
+

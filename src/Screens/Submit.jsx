@@ -1,55 +1,53 @@
 import React from "react";
+import "../styles/Submit.css";
 
 const Submit = () => {
   return (
-    <div>
-      <h1>Submit</h1>
+    <div className="Submit">
+      <h2>Paper Submission</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit obcaecati
-        eum magnam velit quas quos ex, veritatis voluptate dolor consequatur
-        libero qui, doloribus possimus aut ipsam blanditiis animi alias magni
-        quis ad similique voluptatem nulla. Numquam aut quia nostrum
-        repudiandae, cum eos exercitationem repellendus enim ipsum voluptatem
-        provident neque rem quaerat libero soluta tempora, ad deserunt quibusdam
-        culpa expedita doloremque voluptatibus! Explicabo cum esse, veritatis
-        doloremque quasi provident alias corporis, dicta, distinctio doloribus
-        minus aliquid. Alias praesentium, sunt quam fugiat, et est enim autem
-        commodi eum dicta sint ab, iusto vero nostrum repudiandae perferendis?
-        Minus distinctio qui neque laudantium vel voluptatibus deleniti aliquid,
-        tempora velit. Molestiae, laboriosam labore minima sint odio sit
-        voluptas quo nostrum natus eaque? Voluptatem vel veritatis sint earum
-        eius laboriosam voluptas beatae. Officia suscipit sunt tempora harum
-        porro! Unde modi a non suscipit quaerat ratione vero quos minus officia
-        adipisci fugiat debitis dolores, numquam eligendi error natus, cum
-        nesciunt. Atque quae accusantium vel illum consectetur est delectus
-        placeat molestiae, asperiores repellat omnis? Consectetur ducimus hic
-        quis inventore veritatis ipsa laborum architecto porro, in aliquid
-        laudantium voluptate dolorem optio vel iusto voluptatem sed sapiente
-        iste provident expedita omnis exercitationem impedit aperiam. Nam
-        dolores corrupti, neque ipsum dolorum commodi, quam vero quo mollitia,
-        qui voluptate omnis ex architecto. Impedit modi soluta rerum dolorem
-        possimus cum assumenda animi rem, temporibus magnam. Ratione odit dolore
-        dolorem? Quaerat mollitia necessitatibus, eveniet assumenda pariatur
-        minus vel omnis, laudantium non molestias inventore quo rerum numquam
-        possimus sequi voluptatibus atque sit ex quibusdam similique autem
-        facilis neque at? Officia, voluptatibus eos mollitia neque laudantium
-        minus laboriosam labore autem quam unde laborum ipsam non molestias
-        earum praesentium, provident debitis voluptatem, eius voluptates
-        corrupti? Consequuntur in iste eos sunt ut sequi necessitatibus corporis
-        repellendus autem placeat minus perferendis minima eveniet odit, a
-        libero odio totam! Ad minima totam culpa, vero autem dolores iste harum
-        est cupiditate voluptate qui quae rem aut impedit debitis dolorum
-        molestias nisi obcaecati soluta voluptates, cum magni alias. Corrupti a
-        molestias in quidem accusantium? Minima dolorum quisquam cum assumenda.
-        Sint nulla dolore repellendus eum dicta ipsam assumenda. Expedita,
-        delectus. Earum sequi provident doloribus magnam exercitationem aperiam
-        dicta autem atque asperiores at officia sit ad, deserunt laudantium
-        cupiditate consectetur culpa, et reprehenderit mollitia consequuntur.
-        Odio quia repellendus a? Velit iste asperiores maiores possimus aliquam
-        temporibus aspernatur illo porro vero ducimus, alias minima dolores
-        exercitationem. Odio, et assumenda eveniet deleniti nihil fuga totam
-        sint.
+        All researchers are requested to submit their original research papers
+        through the given Microsoft CMT paper submission portal link only. No
+        other alternatives of paper submission is entertained.
       </p>
+
+      <button type="button" class="btn">
+        Submit Your MenuScript
+      </button>
+
+      <h2>Submission Procedure for Abstract: </h2>
+
+      <ul>
+        <li>Go through the link SUBMIT YOUR MANUSCRIPT</li>
+        <li>
+          Login with your email id and password if registered already to CMT
+          paper submission portal, otherwise first register and then login.
+        </li>
+        <li>After successful login</li>
+        <li>Click on create new submission</li>
+        <li>
+          Then select the track (click here for track details) to which your
+          paper suits and coninue by providing your name, affiliation, abstract
+          and click on submit button.
+        </li>
+      </ul>
+
+      <h2>Submission Procedure for Full Paper:</h2>
+
+      <ul class="list-group">
+        <li>Go through the link SUBMIT YOUR MANUSCRIPT</li>
+        <li>
+          Login with your email id and password if registered already to CMT
+          paper submission portal, otherwise first register and then login.
+        </li>
+        <li>After successful login</li>
+        <li>Click on create new submission</li>
+        <li>
+          Then select the track (click here for track details) to which your
+          paper suits and coninue by providing your name, affiliation, abstract
+          and click on submit button.
+        </li>
+      </ul>
     </div>
   );
 };

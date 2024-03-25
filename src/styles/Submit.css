@@ -1,0 +1,79 @@
+.Submit {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.Submit h2 {
+    font-size: 2em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.Submit p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.Submit button {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Submit button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.Submit a {
+    color: #000;
+    text-decoration: underline;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.Submit ul {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+
+}
+
+.Submit ul li {
+    margin-bottom: 10px;
+}
+
+
+/* mediaquires */
+
+@media (max-width: 768px) {
+    .Submit p {
+        padding: 0 30px;
+    }
+
+    .Submit button {
+        padding: 10px 30px;
+    }
+
+    .Submit ul {
+        padding: 0 30px;
+    }
+
+    .Submit h2 {
+        text-align: left;
+        padding: 0 30px;
+    }
+}

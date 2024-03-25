@@ -1,56 +1,91 @@
 import React from "react";
+import "../styles/Registration.css";
 
 const Registration = () => {
   return (
-    <div>
-      <h1>Registration</h1>
+    <div className="Registration">
+      <h2>Instructions for Registration</h2>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam culpa
-        consectetur id, sequi laudantium expedita impedit iste deleniti,
-        veritatis, sint quos! Aliquid accusantium quas id dolores dolorum iste
-        accusamus exercitationem ea eaque dolore est cupiditate minima, numquam
-        esse eveniet error, velit temporibus laborum? Voluptatibus sit,
-        consequatur doloremque nesciunt cumque laboriosam quae harum quod vel
-        nobis vero neque quia sint architecto corporis veniam officia vitae!
-        Provident exercitationem, totam voluptatem pariatur, in eveniet odio,
-        quos dignissimos sequi ratione alias modi accusantium vero similique
-        illo. Dolorum fuga eaque illo reiciendis aspernatur sit adipisci ipsum
-        officiis numquam quasi sunt ab quidem, commodi eos omnis dignissimos
-        totam delectus culpa veniam assumenda porro inventore optio? Totam
-        repellendus reprehenderit reiciendis hic tempora vitae ipsam blanditiis
-        architecto animi numquam porro, dicta nulla corrupti aliquam? Doloremque
-        ad qui laborum a dolorum reiciendis similique eveniet ex mollitia
-        molestiae vero in deleniti, praesentium placeat perferendis, iste
-        aspernatur dolore dignissimos voluptatibus delectus sint enim? Corporis
-        rerum itaque, voluptatem eaque excepturi blanditiis obcaecati quibusdam
-        odio omnis maiores animi, soluta laudantium quod minus quae corrupti
-        modi? Quibusdam nihil ullam pariatur et tenetur optio, perferendis neque
-        nesciunt quo voluptatum? Atque itaque tenetur mollitia pariatur ad ipsa
-        nemo ducimus eos distinctio. Sunt, magnam doloremque. Error eligendi
-        nam, iure consectetur corporis voluptatibus deleniti consequuntur
-        dolorem quaerat nisi laboriosam dolores a quasi laborum, possimus soluta
-        exercitationem repellat distinctio? Necessitatibus soluta at et vero
-        iusto fugiat repellat facere est assumenda consequatur ad quae molestias
-        ipsa, dolorum quia magnam debitis consequuntur animi reiciendis dicta?
-        Fugiat, et accusantium. Aperiam voluptas sed animi nobis similique
-        quaerat. Facilis aliquid vitae laboriosam repellat. Doloribus,
-        distinctio assumenda! Incidunt recusandae possimus nobis a! Autem,
-        eligendi. Sunt dolorum beatae nihil eius placeat assumenda a nulla,
-        impedit error eos dolorem repudiandae debitis ratione vel, molestiae
-        maiores rem nisi ut mollitia iste eum vitae! Explicabo aliquid mollitia
-        dolore beatae, error facere facilis fuga ratione doloribus distinctio
-        necessitatibus nobis quasi. Consequuntur impedit ad consectetur totam
-        blanditiis excepturi qui laboriosam, rerum aut dignissimos dolore minima
-        culpa eveniet delectus, neque molestiae repellendus vitae iure
-        reiciendis. Ipsam porro recusandae, commodi voluptatum aliquid culpa
-        deleniti, maiores, corrupti cupiditate vitae aspernatur. Eligendi culpa
-        animi libero veritatis explicabo corporis sed, doloremque ipsum et porro
-        eius ab ipsa nostrum non, vel illum quae. Repellendus, consequatur
-        delectus. Ut quibusdam laboriosam repellat nisi, inventore adipisci
-        possimus iure distinctio, eligendi vel eaque, quos corporis tempora ex
-        excepturi blanditiis aspernatur et sit veniam similique error sequi
-        deserunt asperiores? Perspiciatis, explicabo impedit?
+        Based on the Reviewer comments, all the Accepted Papers for presentation
+        in the 3<sup>rd</sup> International Conference on Data Analytics &
+        Learning (DAL’24), 27<sup>th</sup> & 28<sup>th</sup> December 2024 need
+        to be registered on or before 25<sup>th</sup> Nov,2024.
       </p>
+
+      <p class="bolder">
+        To proceed with publishing your submission, you need to do the
+        Registration on or before 25/11/2024 (Deadline for CRP, Payment)
+      </p>
+
+      <ol>
+        <li>
+          Submit the IC DAL'24 Camera Ready Paper (Paper Template Attached in
+          link) (CRP in
+          <a href="/registration" class="links">
+            MS Word{" "}
+          </a>
+          /
+          <a href="/registration" class="links">
+            Latex format only
+          </a>
+          )
+        </li>
+
+        <li>Payment Screenshot/Reference Number with Date</li>
+        <li>
+          Kindly check the plagiarism report, reduce the similarity index to
+          less than or equal to 15%.
+        </li>
+        <li>
+          Reviewer’s comments will be enabled shortly for those who have not
+          able to view the comments.
+        </li>
+      </ol>
+
+      <p class="bolder">
+        Authors' instructions:{" "}
+        <a href="/registration" class="links">
+          {" "}
+          Click Here
+        </a>
+      </p>
+
+      <div className="boxb">
+        <ul>
+          <li>Payment Method(Account Transfer)</li>
+          <li>Account Holder Name: Mgm's College Engineering, Nanded</li>
+          <li>A/C Number: **********</li>
+          <li>Bank Name: Bank Of Maharashtra</li>
+          <li>Branch Name: Nanded</li>
+          <li>IFSC Code: *********</li>
+          <li>MICR CODE: ************</li>
+        </ul>
+      </div>
+      <p className="bolder">Registration Fees</p>
+      <ul>
+        <li>Research Scholars <b>₹ 6,000/-</b> (Need to provide the ID Proof of the Institution)</li>
+        <li>Industry & Academicians <b>₹ 8,000/-</b></li>
+        <li>Foreign Nationals <b>100$</b></li>
+        <li>Poster Presentation/Participation - <b>₹ 2,000</b></li>
+      </ul>
+      <p className="bolder">Note:</p>
+      <ol>
+        <li>The authors must present their paper at the conference venue(offline mode); without the presentation, the accepted paper will not be forwarded/published to Springer.</li>
+        <li>Submit the CRC to CMT Microsoft portal</li>
+        <li>After the payment, submit the details to following google form <a href="/registration" className="links">Click Here</a></li>
+      </ol>
+      <div className="boxb">
+        <ul>
+          <li>Thanks & Regards</li>
+          <li>Organizing Secretary, International Conference DAL'24</li>
+          <li>Mgm's College Of Engineering, Nanded</li>
+          <li>Department of Computer Science and Engineering</li>
+          <li>Mgm's College Of Engineering, Nanded Bypass Rd, Hingoli Naka, Ambekar Nagar, Nanded-Waghala, Nanded, Maharashtra 431601</li>
+          <li>Email: rajurkar_am@mgmcen.ac.in, bisen_rg@mgmcen.ac.in, pande_ns@mgmcen.ac.in</li>
+          <li>Ph: +91 9545971777</li>
+        </ul>
+      </div>
     </div>
   );
 };

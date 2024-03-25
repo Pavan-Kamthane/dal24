@@ -1,0 +1,95 @@
+.Registration {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.Registration h2 {
+    font-size: 2em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.Registration p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.Registration p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.Registration ol {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.Registration ol li {
+    margin-bottom: 10px;
+}
+
+.Registration ol li a {
+    color: #000;
+}
+
+.Registration div {
+    margin: 30px 0;
+}
+
+.Registration div ul {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.Registration div ul li {
+    margin-bottom: 10px;
+}
+
+.Registration div ul li a {
+    color: #000;
+}
+
+.Registration ul {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+/* mediaquires */
+
+@media screen and (max-width: 768px) {
+    .Registration p {
+        padding: 0 25px;
+    }
+
+    .Registration h2 {
+        padding: 0 25px;
+        font-size: 1.5em;
+        text-align: justify;
+        font-weight: 700;
+    }
+
+    .Registration ol {
+        padding: 0 35px;
+    }
+
+    .Registration ul {
+        padding: 0 35px;
+    }
+
+    .Registration div ul {
+        padding: 0 35px;
+    }
+
+    .Registration h3 {
+        padding: 0 25px;
+    }
+}
