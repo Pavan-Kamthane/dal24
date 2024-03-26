@@ -1,5 +1,5 @@
 import React from "react";
-import bgMain from "../img/home/bg main 3.png";
+import bgMain from "../img/home/Home Main.png";
 import aboutConf from "../img/home/about conf1.jpg";
 import "../styles/home.css";
 import org1 from "../img/home/mgmlogo.jpeg";
@@ -30,7 +30,7 @@ const Home = () => {
               platform for students, academia, researchers, and industry
               professionals. The conference will feature technical paper
               sessions, poster sessions and keynote talks by eminent researchers
-              from around the world.
+             around the world.
             </p>
           </div>
 
