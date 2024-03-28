@@ -1,6 +1,6 @@
 import React from "react";
-import bgMain from "../img/image.png";
-import aboutConf from "../img/home/about conf1.jpg";
+import bgMain from "../img/home/bg main 2.png";
+import aboutConf from "../img/home/about conf1.png";
 import "../styles/home.css";
 import org1 from "../img/home/mgmlogo.jpeg";
 import org2 from "../img/home/mysoore logo.jpg";

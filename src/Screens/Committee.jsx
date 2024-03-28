@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Committee.css";
-import patron1 from "../img/Committee/Shri. Kamal Kishor Kadam.jpeg";
+import patron1 from "../img/Committee/kk  sir.png";
 import organizingChair1 from "../img/Committee/Guru D S.jpeg";
 import organizingSecretary1 from "../img/Committee/Archana M. Rajurkar.jpeg";
 import programChairs1 from "../img/Committee/Vinay Kumar Nataraja.jpeg";
@@ -11,7 +11,7 @@ import generalChairs3 from "../img/Committee/Ichino M.jpeg";
 import generalChairs4 from "../img/Committee/Nagabhushan P.png";
 import generalChairs5 from "../img/Committee/Niranjan N. Chiplunkar.jpg";
 import organizingCommittee1 from "../img/Committee/Joshi M. Y.jpeg";
-import organizingCommittee2 from "../img/Committee/Hashmi.jpg";
+import organizingCommittee2 from "../img/Committee/A S Hashmi.png";
 import organizingCommittee3 from "../img/Committee/Salve S. G..jpeg";
 import organizingCommittee4 from "../img/Committee/Kapre B. S..jpeg";
 import organizingCommittee5 from "../img/Committee/Md. Aijaz Ahmed.jpeg";
@@ -78,47 +78,47 @@ const CommitteeList2 = ({ title, items1, items2 }) => {
 
 const patrons = [
   {
-    name: "Shri. Kamal Kishor Kadam",
+    name: "Shri. Kamalkishor Kadam",
     image: patron1,
   },
 ];
 
 const organizingChair = [
   {
-    name: "Dr.Guru D S",
+    name: "Dr. Guru D S",
     image: organizingChair1,
   },
 ];
 
 const organizingSecretary = [
   {
-    name: "Dr.Archana M. Rajurkar",
+    name: "Dr. Archana M. Rajurkar",
     image: organizingSecretary1,
   },
 ];
 
 const programChairs = [
   {
-    name: "Vinay Kumar Nataraja",
+    name: "Dr. Vinay Kumar Nataraja",
     image: programChairs1,
   },
   {
-    name: "Mohammed Javed",
+    name: "Dr. Mohammed Javed",
     image: programChairs2,
   },
 ];
 
 const generalChairs = [
   {
-    name: "Anil K Jain",
+    name: "Dr. Anil K Jain",
     image: generalChairs1,
   },
   {
-    name: "Carvallo De F A T",
+    name: "Dr. Carvallo De F A T",
     image: defaultImg,
   },
   {
-    name: "Geeta S. Lathkar",
+    name: "Dr. Geeta S. Lathkar",
     image: generalChairs2,
   },
   {
@@ -126,7 +126,7 @@ const generalChairs = [
     image: generalChairs3,
   },
   {
-    name: "Nagabhushan P",
+    name: "Dr. Nagabhushan P",
     image: generalChairs4,
   },
   {
@@ -141,7 +141,7 @@ const generalChairs = [
 
 const organizingCommittee = [
   {
-    name: "Joshi M. Y",
+    name: "Dr. Joshi M. Y",
     image: organizingCommittee1,
   },
   {
@@ -153,7 +153,7 @@ const organizingCommittee = [
     image: organizingCommittee3,
   },
   {
-    name: "Kapre B. S",
+    name: "Dr. Kapre B. S",
     image: organizingCommittee4,
   },
   {
