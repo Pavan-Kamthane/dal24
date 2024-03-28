@@ -70,7 +70,7 @@ const Home = () => {
               platform for students, academia, researchers, and industry
               professionals. The conference will feature technical paper
               sessions, poster sessions and keynote talks by eminent researchers
-              from around the world.
+             around the world.
             </p>
           </div>
 

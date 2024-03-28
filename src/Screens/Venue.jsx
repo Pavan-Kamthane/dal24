@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Venue.css";
-import venue from ".././img/home/mgm clg img.jpeg";
+import venue from ".././img/venue/IMG_4733.png";
 
 function Venue() {
   return (

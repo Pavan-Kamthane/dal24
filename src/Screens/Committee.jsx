@@ -85,14 +85,14 @@ const patrons = [
 
 const organizingChair = [
   {
-    name: "Guru D S",
+    name: "Dr.Guru D S",
     image: organizingChair1,
   },
 ];
 
 const organizingSecretary = [
   {
-    name: "Archana M. Rajurkar",
+    name: "Dr.Archana M. Rajurkar",
     image: organizingSecretary1,
   },
 ];
