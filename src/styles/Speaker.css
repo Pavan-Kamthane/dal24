@@ -6,8 +6,10 @@
 }
 
 .speakers h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .speakers .speakerBox {

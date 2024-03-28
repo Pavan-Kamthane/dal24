@@ -5,9 +5,10 @@
 }
 
 .Registration h2 {
-    font-size: 2em;
-    margin: 30px 0;
+    font-size: 2.5em;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .Registration p {
