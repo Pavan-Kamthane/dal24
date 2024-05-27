@@ -53,7 +53,7 @@ function Venue() {
           </div>
           <img
 
-            
+
           className="right" src={venue} alt="" />
         </div>
       </div>
