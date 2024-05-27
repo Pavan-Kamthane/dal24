@@ -14,6 +14,7 @@ import CallForPaper from './Screens/CallForPaper';
 import Committee from './Screens/Committee';
 import Contact from './Screens/Contact';
 import Submit from './Screens/Submit';
+import ImpDates from './Screens/ImpDates';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/comitee' element={<Committee />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/submit' element={<Submit />} />
+          <Route path='/impdates' element={<ImpDates />} />
         </Routes>
       <Footer />
     </>

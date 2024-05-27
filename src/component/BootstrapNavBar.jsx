@@ -46,7 +46,7 @@ export default function BootstrapNavBar() {
               <NavDropdown.Item as={Link} to="/callForPaper">
                 Call For Paper
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item as={Link} to="/impdates">
                 Important Dates
               </NavDropdown.Item>
             </NavDropdown>
