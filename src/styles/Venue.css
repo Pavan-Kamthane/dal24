@@ -30,8 +30,10 @@
 
 .venue .venueBox .right {
     width: 50%;
-    height: 100%;
+    /* height: 100%; */
+    max-height: 500px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .venue .venueBox .left {

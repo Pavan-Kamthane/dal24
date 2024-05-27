@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Venue.css";
-import venue from ".././img/venue/IMG_4733.png";
+import venue from ".././img/venue/conferance image.jpg";
 
 function Venue() {
   return (
@@ -51,7 +51,10 @@ function Venue() {
               </p>
             </div>
           </div>
-          <img className="right" src={venue} alt="" />
+          <img
+
+            
+          className="right" src={venue} alt="" />
         </div>
       </div>
     </>
