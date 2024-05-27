@@ -24,7 +24,7 @@ const Home = () => {
               The Third International Conference on Data Analysis and Learning
               (ICDAL2024), is jointly organized by Department of CSE, MGM’s COE,
               Nanded (Maharashtra) and Department of Studies in Computer
-              Science, University of Mysuru, Mysuru, Karnataka, India. It will
+              Science, University of Mysore, Mysore, Karnataka, India. It will
               be held at MGM’s COE, Nanded on 30<sup>th</sup>
               and 31<sup>st</sup> December 2024. ICDAL aims to provide a
               platform for sharing innovative ideas, research stands as a
