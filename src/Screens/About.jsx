@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <h2>About MGM's College Of Engineering, Nanded</h2>
+        <h2>About MGM's College of Engineering, Nanded</h2>
         <div className="college">
           <img src={mgmclgImg} alt="Mgm" className="left" />
           <p className="right">MGM's College of Engineering, Nanded is one of the reputed institutions since 35 years. The institute caters for Under Graduate education for Civil, Computers, Mechanical, Electronics & Telecommunication, and Information Technology with four Post Graduate courses. The Research center in Mechanical and Computer Science Engineering provides the reinforcement for career building of engineers. The campus is completely Wi-fi enabled with State of art infrastructure and facilities. MGM's CoE Nanded, is the first NBA accredited institute in Marthwada region as well as it is a NAAC accredited institute.
@@ -19,11 +19,11 @@ const About = () => {
         <div className="college reverse">
           <p className="right">
             The Department of Computer Science and Engineering was established in 1984. The
-            Department, since its inception, has maintained a steady growth in every sphere of its activities
+            department, since its inception, has maintained a steady growth in every sphere of its activities
             and played an important role in bringing a vibrant and forward-looking academic environment.
-            Department is offering high quality undergraduate and postgraduate Engineering courses as
+            Department is offering high quality Undergraduate and Postgraduate Engineering courses as
             well as providing an excellent infrastructure and facilities for state of the art technical education
-            and research. The Department has research center of Swami Ramanand Teerth Marathwada
+            and research. The department has research center of Swami Ramanand Teerth Marathwada
             University, Nanded & Dr. Babasaheb Ambedkar Technological University, Lonere for Ph.D.
             in CSE.  The Department has received research grants of Rs. 48.7 Lakhs from different funding
             agencies such as BARC Mumbai, AICTE Delhi and AMUPMDC Mumbai.
@@ -42,7 +42,7 @@ const About = () => {
           <img src={mysooreclgimg} alt="Mgm" className="left" />
           <p className="right">
             The University of Mysore was established on July 27, 1916. It is the
-            sixth oldest in the country and the first in the state of Karnataka.
+            sixth oldest in the Country and the first in the state of Karnataka.
             Also, in a sense it is the first university of the country to be
             established outside the limits of the British India. The university
             was founded as a result of the efforts of the benevolent and

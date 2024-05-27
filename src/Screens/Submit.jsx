@@ -15,7 +15,7 @@ const Submit = () => {
         Submit Your MenuScript
       </button>
 
-      <h2>Submission Procedure for Abstract: </h2>
+      <h2>Submission procedure for Abstract: </h2>
 
       <ul>
         <li>Go through the link SUBMIT YOUR MANUSCRIPT</li>
@@ -32,7 +32,7 @@ const Submit = () => {
         </li>
       </ul>
 
-      <h2>Submission Procedure for Full Paper:</h2>
+      <h2>Submission procedure for full paper:</h2>
 
       <ul class="list-group">
         <li>Go through the link SUBMIT YOUR MANUSCRIPT</li>

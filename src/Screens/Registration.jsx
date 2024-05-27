@@ -7,7 +7,7 @@ const Registration = () => {
       <h2>Instructions for Registration</h2>
 
       <p>
-        Based on the Reviewer comments, all the Accepted Papers for presentation
+        Based on the reviewer comments, all the accepted Papers for presentation
         in the 3<sup>rd</sup> International Conference on Data Analytics &
         Learning (DAL’24), 27<sup>th</sup> & 28<sup>th</sup> December 2024 need
         to be registered on or before 25<sup>th</sup> Nov,2024.
@@ -32,10 +32,10 @@ const Registration = () => {
           )
         </li>
 
-        <li>Payment Screenshot/Reference Number with Date</li>
+        <li>Payment screenshot/reference number with date</li>
         <li>
           Kindly check the plagiarism report, reduce the similarity index to
-          less than or equal to 15%.
+          less than or equal to 1 5%.
         </li>
         <li>
           Reviewer’s comments will be enabled shortly for those who have not
