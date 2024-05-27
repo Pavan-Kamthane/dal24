@@ -1,3 +1,4 @@
+@import url("./theme.css");
 .Registration {
     width: 100%;
     height: auto;
@@ -5,14 +6,14 @@
 }
 
 .Registration h2 {
-    font-size: 2.5em;
+    font-size: var(--fs-2);
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .Registration p {
-    font-size: 1.5em;
+    font-size: var(--fs-1);
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;
@@ -24,7 +25,7 @@
 }
 
 .Registration ol {
-    font-size: 1.5em;
+    font-size: var(--fs-1) !important;
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;
@@ -43,7 +44,7 @@
 }
 
 .Registration div ul {
-    font-size: 1.5em;
+    font-size: var(--fs-1) !important;
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;
@@ -58,7 +59,7 @@
 }
 
 .Registration ul {
-    font-size: 1.5em;
+    font-size: var(--fs-1);
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;

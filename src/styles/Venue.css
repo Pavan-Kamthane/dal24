@@ -1,3 +1,4 @@
+@import url("./theme.css");
 .venue {
     display: flex;
     flex-direction: column;
@@ -21,7 +22,7 @@
 }
 
 .venue h2 {
-    font-size: 2.5em;
+    font-size: var(--fs-2) !important;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -39,7 +40,7 @@
 }
 
 .venue .venueBox .left h3 {
-    font-size: 1.5rem;
+    font-size: var(--fs-3);
     font-weight: 600;
     color: #333;
     margin: 20px;
@@ -53,7 +54,7 @@
 }
 
 .venue .venueBox .left div p {
-    font-size: 1.2rem;
+    font-size: var(--fs-1);
     font-weight: 500;
     color: #333;
     margin: 20px;

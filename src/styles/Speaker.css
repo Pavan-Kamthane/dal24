@@ -1,3 +1,4 @@
+@import url("./theme.css");
 .speakers {
     width: 100%;
     height: auto;
@@ -6,7 +7,7 @@
 }
 
 .speakers h2 {
-    font-size: 2.5em;
+    font-size: var(--fs-2) !important;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -41,7 +42,7 @@
 }
 
 .speakers .speakerBox .speaker h3 {
-    font-size: 1.5em;
+    font-size: var(--fs-3) !important;
     margin-bottom: 10px;
 }
 
@@ -52,4 +53,9 @@
     .speakers .speakerBox .speaker {
         width: 100%;
     }
+
+    h3 {
+        display:block;
+    }
 }
+

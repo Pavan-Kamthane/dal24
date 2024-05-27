@@ -6,20 +6,7 @@ const CallForPaper = () => {
     <div className="callforpapers">
       <h2>Call for Papers</h2>
 
-      {/* <p>
-        The Third International Conference on Data Analysis and Learning
-        (ICDAL2024), is jointly organized by Department of CSE, MGM’s COE,
-        Nanded (Maharashtra) and Department of Studies in Computer Science,
-        University of Mysuru, Mysuru, Karnataka, India. It will be held at MGM’s
-        COE, Nanded on 30th and 31st December 2024. ICDAL aims to provide a
-        platform for sharing innovative ideas, research stands as a
-        distinguished annual conference dedicated to the realms of Data
-        Analytics and Artificial Intelligence. Renowned for its exceptional
-        quality, this conference serves as an excellent platform for students,
-        academia, researchers, and industry professionals. The conference will
-        feature technical paper sessions, poster sessions and keynote talks by
-        eminent researchers from around the world.
-      </p> */}
+    
 
       <p>
         Prospective authors are encouraged to submit their original research
@@ -32,7 +19,7 @@ const CallForPaper = () => {
       </p>
 
       <h2>
-        The Topics of interest for submission of papers include but not limited
+        The topics of interest for submission of papers include but not limited
         to :
       </h2>
 

@@ -76,7 +76,11 @@ const Registration = () => {
         <li>After the payment, submit the details to following google form <a href="/registration" className="links">Click Here</a></li>
       </ol>
       <div className="boxb">
-        <ul>
+        <ul 
+          style={{
+            listStyleType: "none",
+          }}
+        >
           <li>Thanks & Regards</li>
           <li>Organizing Secretary, International Conference DAL'24</li>
           <li>Mgm's College Of Engineering, Nanded</li>

@@ -1,3 +1,4 @@
+@import url("./theme.css");
 .slideranddata {
     width: 90%;
     height: 500px;
@@ -17,6 +18,8 @@
     justify-content: center;
     padding: 10px;
     /* background: yellow; */
+    font-size: var(--fs-1);
+
 }
 
 
@@ -37,6 +40,7 @@
     border-bottom-right-radius: 20px;
     /* text-align: right; */
     padding-right: 20px;
+    font-size: var(--fs-1);
 }
 
 .slideranddata .right h2 {
@@ -117,7 +121,7 @@
 }
 
 .aboutBox .left p {
-    font-size: 1.2rem;
+    font-size: var(--fs-1) !important;
     font-weight: 500;
     color: #333;
     margin-top: 20px;

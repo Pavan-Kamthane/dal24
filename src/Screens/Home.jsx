@@ -4,50 +4,14 @@ import aboutConf from "../img/home/about conf1.png";
 import "../styles/home.css";
 import org1 from "../img/home/mgmlogo.jpeg";
 import org2 from "../img/home/mysoore logo.jpg";
-import Carousel from "react-bootstrap/Carousel";
-import bg1 from "../img/home/mgm clg img.jpeg";
-import bg2 from "../img/home/photo4.jpg";
 // import bg3 from "../img/BG3.jpeg";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-// const images = [
-//   {
-//     original: "https://picsum.photos/id/1018/1000/600/",
-//     thumbnail: "https://picsum.photos/id/1018/250/150/",
-//     description: "A picture of a dog",
-//     originalHeight: 720,
-//     originalWidth: 960,
-//     thumbnailHeight: 100,
-//     thumbnailWidth: 100,
-//     // fullscreen: true,
-//   },
-//   {
-//     original: "https://picsum.photos/id/1015/1000/600/",
-//     thumbnail: "https://picsum.photos/id/1015/250/150/",
-//     description: "A picture of a city",
-//     originalHeight: 720,
-//     originalWidth: 960,
-//     thumbnailHeight: 100,
-//     thumbnailWidth: 100,
-//   },
-//   {
-//     original: "https://picsum.photos/id/1019/1000/600/",
-//     thumbnail: "https://picsum.photos/id/1019/250/150/",
-//     description: "A picture of a forest",
-//     originalHeight: 700,
-//     originalWidth: 2000,
-//     thumbnailHeight: "100",
-//     thumbnailWidth: 100,
-//   },
-// ];
 
 const Home = () => {
   return (
     <>
-      {/* 
-        caresoule
-      */}
 
       <div className="banner">
         <img src={bgMain} alt="Banner" />

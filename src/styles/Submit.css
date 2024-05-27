@@ -1,3 +1,4 @@
+@import url("./theme.css");
 .Submit {
     width: 100%;
     height: auto;
@@ -6,14 +7,14 @@
 }
 
 .Submit h2 {
-    font-size: 2.5em;
+    font-size: var(--fs-2) !important;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .Submit p {
-    font-size: 1.5em;
+    font-size: var(--fs-1);
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;
@@ -46,7 +47,7 @@
 }
 
 .Submit ul {
-    font-size: 1.5em;
+    font-size: var(--fs-1);
     margin-bottom: 20px;
     text-align: justify;
     padding: 0 100px;

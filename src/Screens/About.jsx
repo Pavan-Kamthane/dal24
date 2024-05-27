@@ -18,21 +18,21 @@ const About = () => {
         <h2>Department of Computer Science & Engineering</h2>
         <div className="college reverse">
           <p className="right">
-          The Department of Computer Science and Engineering was established in 1984. The
- Department, since its inception, has maintained a steady growth in every sphere of its activities
- and played an important role in bringing a vibrant and forward-looking academic environment.
- Department is offering high quality undergraduate and postgraduate Engineering courses as
- well as providing an excellent infrastructure and facilities for state of the art technical education
- and research. The Department has research center of Swami Ramanand Teerth Marathwada
- University, Nanded & Dr. Babasaheb Ambedkar Technological University, Lonere for Ph.D.
- in CSE.  The Department has received research grants of Rs. 48.7 Lakhs from different funding
- agencies such as BARC Mumbai, AICTE Delhi and AMUPMDC Mumbai.
-<br />
- The Department of Computer Science & Engineering strives for excellence in creating,
- applying, and imparting knowledge in Computer Science and Engineering through
- comprehensive educational programs, research in collaboration with industry and government,
- dissemination through scholarly publications, and service to professional societies, the
- community, the State, and the Nation.
+            The Department of Computer Science and Engineering was established in 1984. The
+            Department, since its inception, has maintained a steady growth in every sphere of its activities
+            and played an important role in bringing a vibrant and forward-looking academic environment.
+            Department is offering high quality undergraduate and postgraduate Engineering courses as
+            well as providing an excellent infrastructure and facilities for state of the art technical education
+            and research. The Department has research center of Swami Ramanand Teerth Marathwada
+            University, Nanded & Dr. Babasaheb Ambedkar Technological University, Lonere for Ph.D.
+            in CSE.  The Department has received research grants of Rs. 48.7 Lakhs from different funding
+            agencies such as BARC Mumbai, AICTE Delhi and AMUPMDC Mumbai.
+            <br />
+            The Department of Computer Science & Engineering strives for excellence in creating,
+            applying, and imparting knowledge in Computer Science and Engineering through
+            comprehensive educational programs, research in collaboration with industry and government,
+            dissemination through scholarly publications, and service to professional societies, the
+            community, the State, and the Nation.
           </p>
           <img className="right" src={cse} alt="CSE" />
         </div>

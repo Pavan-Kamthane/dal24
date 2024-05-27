@@ -1,0 +1,14 @@
+/* seting primary secondary backgroud */
+
+:root {
+  --primary: linear-gradient(45deg, #9500ff, #630092, #9500ff);
+  --secondary: #f0f0f0;
+  --background: #f0f0f0;
+    --text: #333;
+    /* font size */
+    --fs-1: 1.2rem;
+    /* headline */
+    --fs-2: 2rem;
+    /* sub headline */
+    --fs-3: 1.2rem;
+}
