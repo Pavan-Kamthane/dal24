@@ -397,7 +397,7 @@ const Committee = () => {
       />
 
       <div className="twocolumn">
-        <CommitteeList title="Advisory Panel" items={advisoryPanelItems} />
+        <CommitteeList title="Advisory Committee" items={advisoryPanelItems} />
         <CommitteeList
           title="Steering Committee"
           items={steeringCommitteeItems}
