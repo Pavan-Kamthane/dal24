@@ -6,8 +6,6 @@ const CallForPaper = () => {
     <div className="callforpapers">
       <h2>Call for Papers</h2>
 
-    
-
       <p>
         Prospective authors are encouraged to submit their original research
         papers in any of the conference tracks. Only original papers which have
@@ -20,13 +18,13 @@ const CallForPaper = () => {
 
       <h2>
         The topics of interest for submission of papers include but not limited
-        to :
+        to:
       </h2>
 
       <ul>
-        <div class="list">
-          <h4 class="sub-list">
-            <i class="bi bi-caret-right-fill"></i>Data Analytics
+        <div className="list">
+          <h4 className="sub-list">
+            <i className="bi bi-caret-right-fill"></i>Data Analytics
           </h4>
           <li>Data Analytics Systems</li>
           <li>Data Representation</li>
@@ -35,9 +33,9 @@ const CallForPaper = () => {
           <li>Fuzzy Data Analysis</li>
           <li>Soft Computing</li>
         </div>
-        <div class="list">
-          <h4 class="sub-list">
-            <i class="bi bi-caret-right-fill"></i>Machine Learning
+        <div className="list">
+          <h4 className="sub-list">
+            <i className="bi bi-caret-right-fill"></i>Machine Learning
           </h4>
           <li>Machine Learning</li>
           <li>Conceptional learning</li>
@@ -47,9 +45,9 @@ const CallForPaper = () => {
           <li>Neural Networks and its applications</li>
           <li>Deep Learning algorithms</li>
         </div>
-        <div class="list">
-          <h4 class="sub-list">
-            <i class="bi bi-caret-right-fill"></i>Computer Vision
+        <div className="list">
+          <h4 className="sub-list">
+            <i className="bi bi-caret-right-fill"></i>Computer Vision
           </h4>
           <li>Image Rectification</li>
           <li>Stereo Vision</li>
@@ -76,8 +74,10 @@ const CallForPaper = () => {
       <h3>Manuscript Uploading:</h3>
 
       <p>
-        The manuscript has to be uploaded online at ICDAL 2024 paper submission
-        portal.
+        The manuscript has to be uploaded online on {" "}
+        <a href="https://cmt3.research.microsoft.com/DAL2024" target="_blank" rel="noopener noreferrer">
+        https://cmt3.research.microsoft.com/DAL2024
+        </a>.
       </p>
 
       <h3>Best Paper Awards:</h3>
