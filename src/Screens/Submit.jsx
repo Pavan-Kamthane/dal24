@@ -16,7 +16,7 @@ const Submit = () => {
       </p>
 
       <button type="button" className="btn" onClick={redirectToWebsite}>
-        Submit Your Manuscript
+        Submit Your manuscript
       </button>
 
       <h2>Submission procedure for Abstract: </h2>

@@ -71,7 +71,7 @@ const CallForPaper = () => {
         text, figures, and references) as per guidelines of Springer.
       </p>
 
-      <h3>Manuscript Uploading:</h3>
+      <h3>manuscript Uploading:</h3>
 
       <p>
         The manuscript has to be uploaded online on {" "}
