@@ -5,9 +5,6 @@ import ScheduleImg from '../img/Schedule.png'
 const Schedule = () => {
   return (
     <div className="Schedule">
-      <h2>
-        Schedule
-      </h2>
 
       <img src={ScheduleImg} alt="Schedule" />
     </div>

@@ -4,7 +4,7 @@ import patron1 from "../img/Committee/kk  sir.png";
 import organizingChair1 from "../img/Committee/Guru D S.jpeg";
 import organizingSecretary1 from "../img/Committee/Archana M. Rajurkar.jpeg";
 import programChairs1 from "../img/Committee/Vinay Kumar Nataraja.jpeg";
-import programChairs2 from "../img/Committee/Mohammed Javed.jpg";
+import programChairs2 from "../img/Committee/Venkat N. Gudivada.png";
 import generalChairs1 from "../img/Committee/Anil K Jain.jpg";
 import generalChairs2 from "../img/Committee/Dr. Geeta S. Lathkar.jpg";
 import generalChairs3 from "../img/Committee/Ichino M.jpeg";
@@ -88,54 +88,38 @@ const organizingChair = [
     name: "Dr. Guru D S",
     image: organizingChair1,
   },
-];
-
-const organizingSecretary = [
   {
     name: "Dr. Archana M. Rajurkar",
     image: organizingSecretary1,
   },
 ];
 
+// const organizingSecretary = [
+//   {
+//     name: "Dr. Archana M. Rajurkar",
+//     image: organizingSecretary1,
+//   },
+// ];
+
 const programChairs = [
   {
-    name: "Dr. Vinay Kumar Nataraja",
+    name: "Vinay Kumar Nataraja",
     image: programChairs1,
   },
   {
-    name: "Dr. Mohammed Javed",
+    name: "Venkat N. Gudivada",
     image: programChairs2,
   },
 ];
 
 const generalChairs = [
   {
-    name: "Dr. Anil K Jain",
-    image: generalChairs1,
-  },
-  {
-    name: "Dr. Carvallo De F A T",
-    image: defaultImg,
-  },
-  {
     name: "Dr. Geeta S. Lathkar",
     image: generalChairs2,
   },
   {
-    name: "Ichino Mr",
-    image: generalChairs3,
-  },
-  {
     name: "Dr. Nagabhushan P",
     image: generalChairs4,
-  },
-  {
-    name: "Niranjan N. Chiplunkar",
-    image: generalChairs5,
-  },
-  {
-    name: "Tan C L",
-    image: defaultImg,
   },
 ];
 
@@ -385,10 +369,10 @@ const Committee = () => {
 
       <CommitteeBox title="Patrons" members={patrons} />
       <CommitteeBox title="Organizing Chair" members={organizingChair} />
-      <CommitteeBox
+      {/* <CommitteeBox
         title="Organizing Secretary"
         members={organizingSecretary}
-      />
+      /> */}
       <CommitteeBox title="Program Chairs" members={programChairs} />
       <CommitteeBox title="General Chairs" members={generalChairs} />
       <CommitteeBox
