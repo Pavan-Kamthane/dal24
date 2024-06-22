@@ -28,6 +28,9 @@ function Footer() {
         </a>,
         <a style={link} href="https://in.linkedin.com/in/vedant-kahalekar">
         Vedant Kahalekar
+        </a>,
+        <a style={link} href="https://in.linkedin.com/in/pranav-kalaskar-588a1a233">
+        Pranav Kalaskar
         </a>
       </p>
     </div>
