@@ -22,7 +22,7 @@ const Speaker = () => {
         </div>
         <div className="speaker">
           <img src={speaker3} alt="speaker" />
-          <h3>KC Santosh, PhD </h3>
+          <h3>Dr.KC Santosh </h3>
         </div>
         <div className="speaker">
           <img src={speaker0} alt="speaker" />
