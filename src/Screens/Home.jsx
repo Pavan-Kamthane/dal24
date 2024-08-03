@@ -1,5 +1,5 @@
 import React from "react";
-import bgMain from "../img/home/bg main 2.png";
+import bgMain from "../img/Home Img.png";
 import aboutConf from "../img/home/about conf1.png";
 import "../styles/home.css";
 import org1 from "../img/home/mgmlogo.jpeg";
@@ -14,7 +14,7 @@ const Home = () => {
     <>
 
       <div className="banner">
-        <img src={bgMain} alt="Banner" />
+        <img src={bgMain} alt="Image Will Load soon" />
       </div>
       <div className="about">
         <h2>About Conference</h2>
