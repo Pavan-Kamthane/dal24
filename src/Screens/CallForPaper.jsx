@@ -74,17 +74,22 @@ const CallForPaper = () => {
       <h3>manuscript Uploading:</h3>
 
       <p>
-        The manuscript has to be uploaded online on {" "}
-        <a href="https://cmt3.research.microsoft.com/DAL2024" target="_blank" rel="noopener noreferrer">
-        https://cmt3.research.microsoft.com/DAL2024
-        </a>.
+        The manuscript has to be uploaded online on{" "}
+        <a
+          href="https://cmt3.research.microsoft.com/DAL2024"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://cmt3.research.microsoft.com/DAL2024
+        </a>
+        .
       </p>
 
       <h3>Best Paper Awards:</h3>
 
       <p>
-        ICDAL 2024 will select and present Best Paper, Best Poster and Best
-        Student Paper Award.
+        DAL' 24 will select and present Best Paper, Best Poster and Best Student
+        Paper Award.
       </p>
     </div>
   );

@@ -8,11 +8,9 @@ import org2 from "../img/home/mysoore logo.jpg";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-
 const Home = () => {
   return (
     <>
-
       <div className="banner">
         <img src={bgMain} alt="Image Will Load soon" />
       </div>
@@ -22,11 +20,11 @@ const Home = () => {
           <div className="left">
             <p>
               The Third International Conference on Data Analysis and Learning
-              (ICDAL2024), is jointly organized by Department of CSE, MGM’s COE,
+              (DAL' 24), is jointly organized by Department of CSE, MGM’s COE,
               Nanded (Maharashtra) and Department of Studies in Computer
               Science, University of Mysore, Mysore, Karnataka, India. It will
               be held at MGM’s COE, Nanded on 30<sup>th</sup>
-              and 31<sup>st</sup> December 2024. ICDAL aims to provide a
+              and 31<sup>st</sup> December 2024. DAL' 24 aims to provide a
               platform for sharing innovative ideas, research stands as a
               distinguished annual conference dedicated to the realms of Data
               Analytics and Artificial Intelligence. Renowned for its
@@ -34,7 +32,7 @@ const Home = () => {
               platform for students, academia, researchers, and industry
               professionals. The conference will feature technical paper
               sessions, poster sessions and keynote talks by eminent researchers
-             around the world.
+              around the world.
             </p>
           </div>
 
