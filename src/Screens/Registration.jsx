@@ -35,7 +35,7 @@ const Registration = () => {
         <li>Payment screenshot/reference number with date</li>
         <li>
           Kindly check the plagiarism report, reduce the similarity index to
-          less than or equal to 1 5%.
+          less than or equal to 15%.
         </li>
         <li>
           Reviewer’s comments will be enabled shortly for those who have not

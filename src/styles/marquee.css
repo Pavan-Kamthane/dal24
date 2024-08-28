@@ -1,0 +1,51 @@
+@import url("./theme.css");
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background: var(--primary);
+    padding: 10px 0;
+    margin: 10px 0px;
+    height: 60px;
+}
+
+.marquee {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee a {
+    height: 100%;
+    margin-right: 50px;
+    white-space: nowrap;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee a img {
+    height: 50px;
+    /* Set your desired height */
+    margin-right: 8px;
+    /* Space between the image and text */
+}
+
+.marquee a:hover {
+    text-decoration: underline;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

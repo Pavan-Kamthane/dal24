@@ -7,13 +7,15 @@ import org2 from "../img/home/mysoore logo.jpg";
 // import bg3 from "../img/BG3.jpeg";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Marquee from "../component/Marquee";
 
 const Home = () => {
   return (
     <>
+      <Marquee />
       <div className="banner">
         <img src={bgMain} alt="Image Will Load soon" />
-      </div>
+      </div>  
       <div className="about">
         <h2>About Conference</h2>
         <div className="aboutBox">
