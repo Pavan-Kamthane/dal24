@@ -11,7 +11,7 @@ import generalChairs3 from "../img/Committee/Ichino M.jpeg";
 import generalChairs4 from "../img/Committee/Nagabhushan P.png";
 import generalChairs5 from "../img/Committee/Niranjan N. Chiplunkar.jpg";
 import organizingCommittee1 from "../img/Committee/Joshi M. Y.jpeg";
-import organizingCommittee2 from "../img/Committee/A S Hashmi.png";
+import organizingCommittee2 from "../img/Committee/A S Hashmi.jpeg";
 import organizingCommittee3 from "../img/Committee/Salve S. G..jpeg";
 import organizingCommittee4 from "../img/Committee/Kapre B. S..jpeg";
 import organizingCommittee5 from "../img/Committee/Md. Aijaz Ahmed.jpeg";
