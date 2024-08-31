@@ -24,6 +24,9 @@ import organizingCommittee11 from "../img/Committee/Bisen R. G., India.jpeg";
 import organizingCommittee12 from "../img/Committee/Kale J. S..jpeg";
 import organizingCommittee13 from "../img/Committee/Pande N. S..jpeg";
 import organizingCommittee14 from "../img/Committee/Bhandare M. N..jpeg";
+import organizingCommittee15 from "../img/Committee/J H Patil.jpeg";
+import organizingCommittee16 from "../img/Committee/SY Gaikwad.jpeg";
+
 import defaultImg from "../img/Committee/default.jpg";
 
 const CommitteeBox = ({ title, members }) => {
@@ -125,15 +128,20 @@ const generalChairs = [
 
 const organizingCommittee = [
   {
-    name: "Dr. Joshi M. Y",
-    image: organizingCommittee1,
-  },
-  {
-    name: "Hashmi, S A",
+    name: "Mr. Hashmi, S A",
     image: organizingCommittee2,
   },
   {
-    name: "Salve S. G",
+    name: "Ms. Jyoti H. Patil",
+    image: organizingCommittee15,
+  },
+  {
+    name: "Dr. Joshi M. Y",
+    image: organizingCommittee1,
+  },
+  
+  {
+    name: "Mr. Salve S. G",
     image: organizingCommittee3,
   },
   {
@@ -141,19 +149,23 @@ const organizingCommittee = [
     image: organizingCommittee4,
   },
   {
-    name: "Md. Aijaz Ahmed",
+    name: "Dr. S Y Gaikwad",
+    image: organizingCommittee16,
+  },
+  {
+    name: "Mr. Md. Aijaz Ahmed",
     image: organizingCommittee5,
   },
   {
-    name: "Pawar P. P",
+    name: "Mr. Pawar P. P",
     image: organizingCommittee6,
   },
   {
-    name: "Wagre S. S",
+    name: "Ms. Wagre S. S",
     image: organizingCommittee7,
   },
   {
-    name: "Pariyal N. P",
+    name: "Ms. Pariyal N. P",
     image: organizingCommittee8,
   },
   {
@@ -161,23 +173,23 @@ const organizingCommittee = [
     image: organizingCommittee9,
   },
   {
-    name: "Chennoji M. R",
+    name: "Mr. Chennoji M. R",
     image: organizingCommittee10,
   },
   {
-    name: "Bisen R. G",
+    name: "Mr. Bisen R. G",
     image: organizingCommittee11,
   },
   {
-    name: "Kale J. S",
+    name: "Ms. Kale J. S",
     image: organizingCommittee12,
   },
   {
-    name: "Pande N. S",
+    name: "Ms. Pande N. S",
     image: organizingCommittee13,
   },
   {
-    name: "Bhandare M. N",
+    name: "Mr. Bhandare M. N",
     image: organizingCommittee14,
   },
 ];
