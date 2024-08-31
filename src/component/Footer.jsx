@@ -1,16 +1,20 @@
 import React from "react";
 
 const footerStyles = {
-  background: "linear-gradient(45deg, #9500ff, rgb(99, 0, 146), #9500ff)",
+  background: "linear-gradient(45deg, #6d53ad, #5a3d99, #6d53ad)",
   color: "white",
   textAlign: "center",
   padding: "10px",
   fontWeight: "bold",
+  height:  "76px",
 };
 
 const link = {
   color: "white",
-  margin: "0 5px"
+  textDecoration: "none",
+  padding:  "0 10px",
+  marginTop:  "-5px",
+
 };
 
 function Footer() {
