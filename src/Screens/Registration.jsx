@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Registration.css";
+import zipFile from '../img/registration/Word+Template.zip'
 
 const Registration = () => {
   return (
@@ -45,10 +46,14 @@ const Registration = () => {
 
       <p class="bolder">
         Authors' instructions:{" "}
-        <a href="/registration" class="links">
-          {" "}
-          Click Here
+       
+        {/* add zip file and  link to download zip file */}
+        <a href={zipFile} download="Word_Template.zip">
+          {/* <button >Download Word Template</button> */}
+          <i class="fa fa-download" aria-hidden="true"></i> Download Word Template
         </a>
+        
+
       </p>
 
       <div className="boxb">
