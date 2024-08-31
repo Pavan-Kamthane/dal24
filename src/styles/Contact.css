@@ -1,7 +1,7 @@
 @import url("./theme.css");
 .contact {
     width: 100%;
-
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +23,11 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* background: var(--primary); */
+    background: linear-gradient(45deg,#7555a3,#797979  );
+    border-radius: 30px;
+    padding: 10px;
+    color: var(--secondary);
 }
 
 
@@ -44,7 +49,7 @@
 
 .contact .box .left div p a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .contact .box .rigth {
