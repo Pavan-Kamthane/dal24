@@ -11,7 +11,7 @@
 
 .marquee {
     display: flex;
-    animation: marquee 30s linear infinite;
+    animation: marquee 15s linear infinite;
     display: flex;
     align-items: center;
     justify-content: center;
