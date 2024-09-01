@@ -59,6 +59,11 @@
     justify-content: center;
 }
 
+iframe{
+    width: 55%;
+    border-radius: 30px;
+}
+
 /* mediaquires */
 
 @media screen and (max-width: 768px) {
@@ -71,6 +76,10 @@
     }
 
     .contact .box .rigth {
+        width: 90%;
+    }
+
+    iframe{
         width: 90%;
     }
 }
