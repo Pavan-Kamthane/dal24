@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 import Header from './component/Header';
 import Footer from './component/Footer';
 import { Route, Routes } from 'react-router-dom';
@@ -19,6 +20,7 @@ import ImpDates from './Screens/ImpDates';
 const App = () => {
   return (
     <>
+    <Analytics />
       <Header />
         <Routes>
           <Route path='/' element={<Home />} />
