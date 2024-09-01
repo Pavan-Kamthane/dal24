@@ -10,7 +10,21 @@ const Marquee = () => {
       <div className="marquee">
         
         <a href={callForpaper1} download="Call_for_Papers_1.jpg" target="_blank" rel="noopener noreferrer">
+          <strike
+            style={
+              {
+                // fontSize: "20px",
+                // color: "red",
+                textDecoration: "line-through",
+                textShadow: "0px 0px 10px black",
+                // textShadow: "0px 0px 10px red",
+                
+              }
+            }
+          >
+
           Call for Papers
+          </strike>
         </a>
         <a href={callForpaper2} download="Call_for_Papers_2.jpg" target="_blank" rel="noopener noreferrer">
         {/* img */}

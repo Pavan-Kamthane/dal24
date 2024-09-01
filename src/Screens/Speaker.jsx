@@ -15,17 +15,17 @@ const Speaker = () => {
         <div className="speaker">
           <img src={speaker1} alt="speaker" />
           <h3>Dr. Venkat N. Gudivada</h3>
-          <p>Professor, East Carolina University</p>
+          <p>Professor, East Carolina University, USA</p>
         </div>
         <div className="speaker">
           <img src={speaker2} alt="speaker" />
           <h3>Dr. Sumantra Dutta Roy</h3>
-          <p>Professor, Indian Institute of Technology</p>
+          <p>Professor, Indian Institute of Technology, Delhi</p>
         </div>
         <div className="speaker">
           <img src={speaker3} alt="speaker" />
           <h3>Dr. KC Santosh </h3>
-          <p>Professor, The University of South Dakota</p>
+          <p>Professor, The University of South Dakota, USA</p>
         </div>
       </div>
     </div>
