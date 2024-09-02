@@ -33,7 +33,7 @@ const Contact = () => {
                 >
                   rajurkar_am@mgmcen.ac.in
                 </a>
-                ,<br>
+                ,<br/>
                 <a
                   href="mailto:bisen_rg@mgmcen.ac.in
             "
