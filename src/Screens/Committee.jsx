@@ -128,7 +128,7 @@ const generalChairs = [
 
 const organizingCommittee = [
   {
-    name: "Mr. Hashmi, S A",
+    name: "Mr. Hashmi S.A.",
     image: organizingCommittee2,
   },
   {
