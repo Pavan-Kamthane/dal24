@@ -8,9 +8,9 @@ const Registration = () => {
       <h2>Instructions for Registration</h2>
 
       <p>
-        Based on the reviewer comments, all the accepted Papers for presentation
+        Based on the reviewer comments, all the accepted papers for presentation
         in the 3<sup>rd</sup> International Conference on Data Analytics &
-        Learning (DAL’24), 27<sup>th</sup> & 28<sup>th</sup> December 2024 need
+        Learning (DAL’24), need
         to be registered on or before 25<sup>th</sup> Nov,2024.
       </p>
 
@@ -21,7 +21,7 @@ const Registration = () => {
 
       <ol>
         <li>
-          Submit the IC DAL'24 Camera Ready Paper (Paper Template Attached in
+          Submit the DAL'24 Camera Ready Paper (Paper Template Attached in
           link) (CRP in
           <a href="/registration" class="links">
             MS Word{" "}
