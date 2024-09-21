@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/CallForPaper.css";
-import CallforPaper from '../img/home/call for paper 2.jpg'
+import CallforPaper from '../img/home/extended call for paper.png'
 
 
 const CallForPaper = () => {
