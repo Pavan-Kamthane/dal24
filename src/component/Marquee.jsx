@@ -10,11 +10,13 @@ const Marquee = () => {
     <div className="marquee-container">
       <div className="marquee">
         <a
-          href={callForpaper1}
-          download="Call_for_Papers_1.jpg"
+          href={callForpaper3}
+          download="extended call for paper.jpg"
           target="_blank"
           rel="noopener noreferrer"
         >
+          {/* img */}
+          {/* <img src={newImg} alt="new" /> */}
           <strike
             style={{
               // fontSize: "20px",
@@ -24,37 +26,29 @@ const Marquee = () => {
               // textShadow: "0px 0px 10px red",
             }}
           >
-            Call for Papers
+            Extended Call for Papers
           </strike>
         </a>
-        <a
-          href={callForpaper2}
-          download="Call_for_Papers_2.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
+        <p
+          style={{
+            margin: "0px",
+            padding: "0px",
+            fontSize: "20px",
+            color: "white",
+          }}
         >
-          {/* img */}
-          <strike
-            style={{
-              // fontSize: "20px",
-              // color: "red",
-              textShadow: "0px 0px 10px black",
-              // textShadow: "0px 0px 10px red",
-            }}
-          >
-            Second Call for Papers
-          </strike>
-        </a>
-        <a
-          href={callForpaper3}
-          download="extended call for paper.jpg"
-          target="_blank"
-          rel="noopener noreferrer"
+          Paper Submission has been Closed
+        </p>
+        <p
+          style={{
+            margin: "0px 30px",
+            padding: "0px",
+            fontSize: "20px",
+            color: "white",
+          }}
         >
-          {/* img */}
-          <img src={newImg} alt="new" />
-          Extended Call for Papers
-        </a>
+          Paper Acceptance Notification: 30 October 2024
+        </p>
       </div>
     </div>
   );
