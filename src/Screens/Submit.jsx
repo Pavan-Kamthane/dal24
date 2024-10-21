@@ -15,9 +15,9 @@ const Submit = () => {
         other alternatives of paper submission is entertained.
       </p>
 
-      <button type="button" className="btn" onClick={redirectToWebsite}>
+      {/* <button type="button" className="btn" onClick={redirectToWebsite}>
         Submit Your manuscript
-      </button>
+      </button> */}
 
       <h2>Submission procedure for Abstract: </h2>
 
