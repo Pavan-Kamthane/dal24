@@ -64,7 +64,7 @@ const Registration = () => {
           <li>Bank Name: Bank Of Maharashtra</li>
           <li>Branch Name: Nanded</li>
           <li>IFSC Code: MAHB0000035</li>
-          <li>MICR CODE: ************</li>
+          {/* <li>MICR CODE: ************</li> */}
         </ul>
       </div>
       <p className="bolder">Registration Fees</p>
