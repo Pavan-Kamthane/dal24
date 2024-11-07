@@ -59,11 +59,11 @@ const Registration = () => {
       <div className="boxb">
         <ul>
           <li>Payment Method(Account Transfer)</li>
-          <li>Account Holder Name: Mgm's College Engineering, Nanded</li>
-          <li>A/C Number: **********</li>
+          <li>Account Holder Name: MGMS COE RESEARCH DEVELOPEMENT</li>
+          <li>A/C Number: 20067302358</li>
           <li>Bank Name: Bank Of Maharashtra</li>
           <li>Branch Name: Nanded</li>
-          <li>IFSC Code: *********</li>
+          <li>IFSC Code: MAHB0000035</li>
           <li>MICR CODE: ************</li>
         </ul>
       </div>
