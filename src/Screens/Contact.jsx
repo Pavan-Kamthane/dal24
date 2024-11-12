@@ -45,14 +45,14 @@ const Contact = () => {
                   href="mailto:bisen_rg@mgmcen.ac.in
             "
                 >
-                  pande_ns@mgmcen.ac.in
+                
                 </a>
               </p>
             </div>
 
             <div>
               <i class="bi bi-telephone-fill"> Phone:</i>
-              <p>+91 9545971777, +91 9503889797</p>
+              <p>+91 9545971777</p>
             </div>
           </div>
 
