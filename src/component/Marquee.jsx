@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/marquee.css";
 import newImg from "../img/home/new.png";
 import callForpaper1 from "../img/home/call for paper 1.jpg";
 import callForpaper2 from "../img/home/call for paper 2.jpg";
@@ -6,40 +7,21 @@ import callForpaper3 from "../img/home/extended call for paper.png";
 
 const Marquee = () => {
   return (
-    <div
-      style={{
-        width: "100%",
-        overflow: "hidden",
-        backgroundColor: "#333",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          whiteSpace: "nowrap",
-          overflow: "hidden",
-          color: "white",
-          padding: "10px 0",
-          fontFamily: "Arial, sans-serif",
-          animation: "marquee 20s linear infinite",
-        }}
-      >
+    <div className="marquee-container">
+      <div className="marquee">
         <a
           href={callForpaper3}
           download="extended call for paper.jpg"
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            textDecoration: "none",
-            color: "white",
-          }}
         >
+          {/* img */}
+          {/* <img src={newImg} alt="new" /> */}
           <strike
             style={{
               textDecoration: "line-through",
               textShadow: "0px 0px 10px black",
+              fontSize: "clamp(16px, 2.5vw, 20px)",
             }}
           >
             Extended Call for Papers
@@ -49,7 +31,8 @@ const Marquee = () => {
           style={{
             margin: "0px",
             padding: "0px",
-            fontSize: "20px",
+            fontSize: "clamp(16px, 2.5vw, 20px)",
+            color: "white",
           }}
         >
           Paper Submission has been Closed
@@ -58,7 +41,8 @@ const Marquee = () => {
           style={{
             margin: "0px 30px",
             padding: "0px",
-            fontSize: "20px",
+            fontSize: "clamp(16px, 2.5vw, 20px)",
+            color: "white",
           }}
         >
           Paper Acceptance Notification: 30 October 2024
