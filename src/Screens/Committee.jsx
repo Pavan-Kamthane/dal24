@@ -380,12 +380,12 @@ const Committee = () => {
       <h1>Committee</h1>
 
       <CommitteeBox title="Patrons" members={patrons} />
-      <CommitteeBox title="Organizing Chair" members={organizingChair} />
+      <CommitteeBox title="Program Chair" members={organizingChair} />
       {/* <CommitteeBox
         title="Organizing Secretary"
         members={organizingSecretary}
       /> */}
-      <CommitteeBox title="Program Chairs" members={programChairs} />
+      <CommitteeBox title="Organizing Chairs" members={programChairs} />
       <CommitteeBox title="General Chairs" members={generalChairs} />
       <CommitteeBox
         title="Organizing Committee"
