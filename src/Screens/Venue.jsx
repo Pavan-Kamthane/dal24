@@ -20,7 +20,7 @@ function Venue() {
             <div>
               <p>
                 <b>Phone:</b> <a href="tel:+919545971777">+91 9545971777</a>,
-                <a href="tel:+919503889797">+91 9503889797</a>
+                
 
               </p>
             </div>
@@ -48,7 +48,7 @@ function Venue() {
                   href="mailto:
             "
                 >
-                  pande_ns@mgmcen.ac.in
+                  
                 </a>
               </p>
             </div>
