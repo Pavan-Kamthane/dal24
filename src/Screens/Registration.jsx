@@ -91,8 +91,8 @@ const Registration = () => {
           <li>Mgm's College Of Engineering, Nanded</li>
           <li>Department of Computer Science and Engineering</li>
           <li>Mgm's College Of Engineering, Nanded Bypass Rd, Hingoli Naka, Ambekar Nagar, Nanded-Waghala, Nanded, Maharashtra 431601</li>
-          <li>Email: rajurkar_am@mgmcen.ac.in, bisen_rg@mgmcen.ac.in, pande_ns@mgmcen.ac.in</li>
-          <li>Ph: +91 9545971777, +91 9503889797</li>
+          <li>Email: rajurkar_am@mgmcen.ac.in, bisen_rg@mgmcen.ac.in </li>
+          <li>Ph: +91 9545971777 </li>
         </ul>
       </div>
     </div>
