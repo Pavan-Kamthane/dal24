@@ -19,7 +19,7 @@ function Venue() {
 
             <div>
               <p>
-                <b>Phone:</b> <a href="tel:+919545971777">+91 9545971777</a>,
+                <b>Phone:</b> <a href="tel:+919545971777">+91 9545971777</a>
                 
 
               </p>
