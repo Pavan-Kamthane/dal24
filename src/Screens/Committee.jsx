@@ -169,6 +169,45 @@ const advisoryPanelItems = [
   "Srinivas Gosala, India",
   "Vasudev T, India",
 ];
+const advisoryPanelItems1 = [
+  "D. B. Phatak, India",
+  "V. N. Gudivada, USA",
+  "K. C. Santosh, USA",
+  "Jose J, Scotland",
+  "Kanakanahalli M, Singapore",
+  "Kirthiga Reddy, USA",
+  "Koen De Bosschere, Belgium",
+];
+
+const advisoryPanelItems2 = [
+  "Leedham G, Australia",
+  "Punitha P, United Kingdom",
+  "Vallet D, Spain",
+  "Anirudh Joshi, India",
+  "Anupam Agrawal, India",
+  "S. Murala, India",
+  "Kokre M. B., India",
+];
+
+const advisoryPanelItems3 = [
+  "Hemantha Kumar G., India",
+  "Lalit Kumar Awasthi, India",
+  "Mayank Dave, India",
+  "Mohit P. Tahiliani, India",
+  "Bhirud, India",
+  "Murthy M N, India",
+  "N.Ch.Sriman Narayana Iyengar, India",
+];
+
+const advisoryPanelItems4 = [
+  "Nagendraswamy H S, India",
+  "Rajendra Hegadi, India",
+  "Ram Murthy Garimella, India",
+  "Ramakrishnan A G, India",
+  "Somayajulu,DVLN, India",
+  "Srinivas Gosala, India",
+  "Vasudev T, India",
+];
 
 const steeringCommitteeItems = [
   "Amitava Das, India",
@@ -319,6 +358,130 @@ const programCommitteeItems2 = [
   "Yuvaraju B N, India",
 ];
 
+const programCommitteeItemsPart1 = [
+  "Ahlame Chouakria Douzali, France",
+  "Andreas Dengel, Germany",
+  "Arun A Ross, USA",
+  "Bhanu Prasad, USA",
+  "Blumenstein, Australia",
+  "Du-Ming Tsai, Taiwan",
+  "Francesc J Ferri, Spain",
+  "Graham Leedham, Australia",
+  "Jemal Abawajy, Australia",
+  "Joseph Liados, France",
+  "Juergen Abel, Germany",
+  "Karthik Nandakumar, Singapore",
+  "Manoj V. N. V, Ethiopia",
+  "Mohan S Kanakanahalli, Singapore",
+  "Morteza Marzarani, USA",
+  "Mireille Summa, Paris",
+  "Mohammed Kamel, USA",
+  "Raghavendra R, Norway",
+  "Kiranagi B B, USA",
+  "Naresh Y G, Ireland",
+  "Rosanna Verde, Italy",
+  "Santhoshkumar V, UAE",
+  "Saragur N Srihari, USA",
+  "Saritha Arunkumar, UK",
+  "Shivakumara P, UK",
+  "Shreekanta Prakash H N, USA",
+  "Sudeep Sarkar, USA",
+  "Tabbone S, France",
+];
+
+const programCommitteeItemsPart2 = [
+  "Anami B S, India",
+  "Anand Kumar K R, India",
+  "Anantha Narayana V S, India",
+  "Angadi S A, India",
+  "Anil Kumar, India",
+  "Annappa, India",
+  "Anoop M Namboodiri, India",
+  "Anshu S Anand, India",
+  "Antony P J, India",
+  "Aradhya V N M, India",
+  "Archana M R, India",
+  "Arun Agarwal, India",
+  "Ashwatha Kumar, India",
+  "Balachandra, India",
+  "Bhat P.V, India",
+  "Biswas P K, India",
+  "Brijesh Iyer, India",
+  "Chanda B, India",
+  "Chennamma H R, India",
+  "Chethan H K, India",
+  "Chethana Kumara B M, India",
+  "Deepa Deshpande, India",
+  "Dhandra B V, India",
+  "Dinesh R, India",
+  "Ganesh Aithal, India",
+  "Girish Chowdhary, India",
+  "Gopalakrishna N Kini, India",
+];
+
+const programCommitteeItemsPart3 = [
+  "Hanmandulu M, India",
+  "Harish B S, India",
+  "Harisha K S, India",
+  "Imran M, India",
+  "Jagadeesh Prabhu, India",
+  "Jagannathan S, India",
+  "Jalesh, India",
+  "Jharna Majumdhar, India",
+  "Joshi Y V, India",
+  "Jyothi Shetty, India",
+  "K.P. Singh, India",
+  "Karthik Pai B H, India",
+  "Kavitha, India",
+  "Kiwalekar, A W, India",
+  "Linganagouda Kulkarni, India",
+  "Mahadev Prasanna, India",
+  "Mahamad Suhil, India",
+  "Mahesh Prasanna, India",
+  "Mallikarjuna P B, India",
+  "Manish Kumar, India",
+  "Manjunath S S, India",
+  "Manjunath S, India",
+  "Manjunatha K S, India",
+  "Manohar N, India",
+  "Manohar Pai M M, India",
+  "Manthalkar, R R, India",
+  "Mayank Vasta, India",
+  "Meenakshi, India",
+];
+const programCommitteeItemsPart4 = [
+  "Mohan Kumar H P, India",
+  "Nagabhushan T N, India",
+  "Nagappa U Bhajantri, India",
+  "Nagasundar K B, India",
+  "Nagesh H R, India",
+  "Narayanan N K, India",
+  "Nirmala S, India",
+  "Pavitra Bhade, India",
+  "Pradeep Kumar R, India",
+  "Prakash H N, India",
+  "Prasad B G, India",
+  "Prasanna Kumar H R, India",
+  "Preethi M, India",
+  "Raghavendra Achar, India",
+  "Raghavendra Rao G, India",
+  "Raju G, India",
+  "Raju, G T, India",
+  "Ramakrishnan K R, India",
+  "Ramar K, India",
+  "Ramesh Babu, India",
+  "Ravat Awale, India",
+  "Ravi T V, India",
+  "Ravikumar M, India",
+  "Ravishankar, India",
+  "Revathi K, India",
+  "Roshan Fernandes, India",
+  "Sahana D Gowda, India",
+  "Sanjay Pandey, India",
+  "Satish Singh, India",
+];
+
+
 const CommitteeBox = ({ title, members }) => {
   return (
     <div className="committeeBox">
@@ -335,15 +498,13 @@ const CommitteeBox = ({ title, members }) => {
   );
 };
 
-const CommitteeList = ({ title, items }) => {
+const CommitteeList = ({ title, items}) => {
   // Determine if the title should appear above the list
-  const isTitleAbove =
-    title === "Advisory Committee" || title === "Steering Committee";
+  
 
   return (
     <div className="committeeBoxList">
-      {/* Render the title conditionally based on the variable */}
-      {isTitleAbove && <h2 className="committeeTitle">{title}</h2>}
+      
 
       <ul>
         {items.map((item, index) => (
@@ -351,17 +512,15 @@ const CommitteeList = ({ title, items }) => {
         ))}
       </ul>
 
-      {/* Render the title below if the condition is false */}
-      {!isTitleAbove && <h2 className="committeeTitle">{title}</h2>}
+      <h2 className="committeeTitle">{title}</h2>
     </div>
   );
 };
 
 
-const CommitteeList2 = ({ title, items1, items2 }) => {
+const CommitteeList2 = ({ title, items1, items2 , items3, items4}) => {
   return (
     <div className="committeeBoxList2">
-      <h2 className="committeeTitle">{title}</h2>
       <div className="biglist">
         <ul>
           {items1.map((item, index) => (
@@ -373,7 +532,18 @@ const CommitteeList2 = ({ title, items1, items2 }) => {
             <li key={index}>{item}</li>
           ))}
         </ul>
+        <ul>
+          {items3.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+        <ul>
+          {items4.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
+      <h2 className="committeeTitle">{title}</h2>
       <hr />
     </div>
   );
@@ -384,10 +554,10 @@ const Committee = () => {
     <div className="Committee">
       <h1>Committee</h1>
 
-      <CommitteeBox title="Patrons" members={patrons} />
+      <CommitteeBox title="Patron" members={patrons} />
       <CommitteeBox title="Organizing Chairs " members={organizingChair} />
 
-      <CommitteeBox title="Program Chair" members={programChairs} />
+      <CommitteeBox title="Program Chairs" members={programChairs} />
       <CommitteeBox title="General Chairs" members={generalChairs} />
       <CommitteeBox
         title="Organizing Committee"
@@ -395,15 +565,21 @@ const Committee = () => {
       />
 
       <div className="twocolumn">
-        <CommitteeList title="Advisory Committee" items={advisoryPanelItems} />
+        <CommitteeList2 title="Advisory Committee" items1={advisoryPanelItems1}
+        items2={advisoryPanelItems2}
+        items3={advisoryPanelItems3}
+        items4={advisoryPanelItems4}
+        />
         <CommitteeList
           title="Steering Committee"
           items={steeringCommitteeItems}
         />
         <CommitteeList2
           title="Program Committee"
-          items1={programCommitteeItems}
-          items2={programCommitteeItems2}
+          items1={programCommitteeItemsPart1}
+          items2={programCommitteeItemsPart2}
+          items3={programCommitteeItemsPart3}
+          items4={programCommitteeItemsPart4}
         />
       </div>
     </div>
