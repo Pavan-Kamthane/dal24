@@ -5,11 +5,8 @@ import organizingChair1 from "../img/Committee/Guru D S.jpeg";
 import organizingSecretary1 from "../img/Committee/Archana M. Rajurkar.jpeg";
 import programChairs1 from "../img/Committee/Vinay Kumar Nataraja.jpeg";
 import programChairs2 from "../img/Committee/Venkat N. Gudivada.png";
-import generalChairs1 from "../img/Committee/Anil K Jain.jpg";
 import generalChairs2 from "../img/Committee/Dr. Geeta S. Lathkar.jpg";
-import generalChairs3 from "../img/Committee/Ichino M.jpeg";
 import generalChairs4 from "../img/Committee/Nagabhushan P.png";
-import generalChairs5 from "../img/Committee/Niranjan N. Chiplunkar.jpg";
 import organizingCommittee1 from "../img/Committee/Joshi M. Y.jpeg";
 import organizingCommittee2 from "../img/Committee/A S Hashmi.jpeg";
 import organizingCommittee3 from "../img/Committee/Salve S. G..jpeg";
@@ -26,58 +23,6 @@ import organizingCommittee13 from "../img/Committee/Pande N. S..jpeg";
 import organizingCommittee14 from "../img/Committee/Bhandare M. N..jpeg";
 import organizingCommittee15 from "../img/Committee/J H Patil.jpeg";
 import organizingCommittee16 from "../img/Committee/SY Gaikwad.jpeg";
-
-import defaultImg from "../img/Committee/default.jpg";
-
-const CommitteeBox = ({ title, members }) => {
-  return (
-    <div className="committeeBox">
-      <h2>{title}</h2>
-      <div className="committeeBoxMembers">
-        {members.map((member, index) => (
-          <div className="committeeBoxMember" key={index}>
-            <img src={member.image} alt={member.name} />
-            <h3>{member.name}</h3>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const CommitteeList = ({ title, items }) => {
-  return (
-    <div className="committeeBoxList">
-      <h2>{title}</h2>
-      <hr />
-      <ul>
-        {items.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-const CommitteeList2 = ({ title, items1, items2 }) => {
-  return (
-    <div className="committeeBoxList2">
-      <h2>{title}</h2>
-      <hr />
-      <div className="biglist">
-        <ul>
-          {items1.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-        <ul>
-          {items2.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  );
-};
 
 const patrons = [
   {
@@ -139,7 +84,7 @@ const organizingCommittee = [
     name: "Dr. Joshi M. Y",
     image: organizingCommittee1,
   },
-  
+
   {
     name: "Mr. Salve S. G",
     image: organizingCommittee3,
@@ -374,18 +319,75 @@ const programCommitteeItems2 = [
   "Yuvaraju B N, India",
 ];
 
+const CommitteeBox = ({ title, members }) => {
+  return (
+    <div className="committeeBox">
+      <div className="committeeBoxMembers">
+        {members.map((member, index) => (
+          <div className="committeeBoxMember" key={index}>
+            <img src={member.image} alt={member.name} />
+            <h3>{member.name}</h3>
+          </div>
+        ))}
+      </div>
+      <h2 className="committeeTitle">{title}</h2>
+    </div>
+  );
+};
+
+const CommitteeList = ({ title, items }) => {
+  // Determine if the title should appear above the list
+  const isTitleAbove =
+    title === "Advisory Committee" || title === "Steering Committee";
+
+  return (
+    <div className="committeeBoxList">
+      {/* Render the title conditionally based on the variable */}
+      {isTitleAbove && <h2 className="committeeTitle">{title}</h2>}
+
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+
+      {/* Render the title below if the condition is false */}
+      {!isTitleAbove && <h2 className="committeeTitle">{title}</h2>}
+    </div>
+  );
+};
+
+
+const CommitteeList2 = ({ title, items1, items2 }) => {
+  return (
+    <div className="committeeBoxList2">
+      <h2 className="committeeTitle">{title}</h2>
+      <div className="biglist">
+        <ul>
+          {items1.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+        <ul>
+          {items2.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <hr />
+    </div>
+  );
+};
+
 const Committee = () => {
   return (
     <div className="Committee">
       <h1>Committee</h1>
 
       <CommitteeBox title="Patrons" members={patrons} />
-      <CommitteeBox title="Program Chair" members={organizingChair} />
-      {/* <CommitteeBox
-        title="Organizing Secretary"
-        members={organizingSecretary}
-      /> */}
-      <CommitteeBox title="Organizing Chairs" members={programChairs} />
+      <CommitteeBox title="Organizing Chairs " members={organizingChair} />
+
+      <CommitteeBox title="Program Chair" members={programChairs} />
       <CommitteeBox title="General Chairs" members={generalChairs} />
       <CommitteeBox
         title="Organizing Committee"
