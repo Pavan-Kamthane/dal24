@@ -1,8 +1,8 @@
 import React from "react";
-// import "../styles/marquee.css";
-// import newImg from "../img/home/new.png";
-// import callForpaper1 from "../img/home/call for paper 1.jpg";
-// import callForpaper2 from "../img/home/call for paper 2.jpg";
+import "../styles/marquee.css";
+import newImg from "../img/home/new.png";
+import callForpaper1 from "../img/home/call for paper 1.jpg";
+import callForpaper2 from "../img/home/call for paper 2.jpg";
 import callForpaper3 from "../img/home/extended call for paper.png";
 
 const Marquee = () => {
