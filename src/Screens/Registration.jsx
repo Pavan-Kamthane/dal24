@@ -81,7 +81,7 @@ const Registration = () => {
         <li>After making the payment, please submit the details to the following email Ids:
           <a href="mailto:vinaykumarn.rsh@compsci.uni-mysore.ac.in"> vinaykumarn.rsh@compsci.uni-mysore.ac.in</a>,
           <a href="mailto:rajurkar_am@mgmcen.ac.in"> rajurkar_am@mgmcen.ac.in</a>, and
-          <a href="mailto:bisen_rg@mgmcen.ac.in">bisen_rg@mgmcen.ac.in</a>.
+          <a href="mailto:bisen_rg@mgmcen.ac.in"> bisen_rg@mgmcen.ac.in</a>.
         </li>
 
       </ol>
