@@ -83,6 +83,7 @@ const Registration = () => {
           <li><a href="mailto:vinaykumarn.rsh@compsci.uni-mysore.ac.in">vinaykumarn.rsh@compsci.uni-mysore.ac.in</a></li>
           <li><a href="mailto:icdal2024@gmail.com">icdal2024@gmail.com</a></li>
         </ul>
+
       </ol>
       <div className="boxb">
         <ul
