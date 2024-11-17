@@ -78,12 +78,11 @@ const Registration = () => {
       <ol>
         <li>The authors must present their paper at the conference venue(offline mode); without the presentation, the accepted paper will not be forwarded/published to Springer.</li>
         <li>Submit the CRC to CMT Microsoft portal</li>
-        <li>After making the payment, please submit the details to the following email Ids:
-          <a href="mailto:vinaykumarn.rsh@compsci.uni-mysore.ac.in"> vinaykumarn.rsh@compsci.uni-mysore.ac.in</a>,
-          <a href="mailto:rajurkar_am@mgmcen.ac.in"> rajurkar_am@mgmcen.ac.in</a>, and
-          <a href="mailto:bisen_rg@mgmcen.ac.in">bisen_rg@mgmcen.ac.in</a>.
-        </li>
-
+        <li>After making the payment, please submit the details to the following email IDs:</li>
+        <ul>
+          <li><a href="mailto:vinaykumarn.rsh@compsci.uni-mysore.ac.in">vinaykumarn.rsh@compsci.uni-mysore.ac.in</a></li>
+          <li><a href="mailto:icdal2024@gmail.com">icdal2024@gmail.com</a></li>
+        </ul>
       </ol>
       <div className="boxb">
         <ul
