@@ -46,13 +46,13 @@ const Registration = () => {
 
       <p class="bolder">
         Authors' instructions:{" "}
-       
+
         {/* add zip file and  link to download zip file */}
         <a href={zipFile} download="Word_Template.zip">
           {/* <button >Download Word Template</button> */}
           <i class="fa fa-download" aria-hidden="true"></i> Download Word Template
         </a>
-        
+
 
       </p>
 
@@ -78,10 +78,15 @@ const Registration = () => {
       <ol>
         <li>The authors must present their paper at the conference venue(offline mode); without the presentation, the accepted paper will not be forwarded/published to Springer.</li>
         <li>Submit the CRC to CMT Microsoft portal</li>
-        <li>After the payment, submit the details to following google form <a href="/registration" className="links">Click Here</a></li>
+        <li>After making the payment, please submit the details to the following email IDs:
+          <a href="mailto:vinaykumarn.rsh@compsci.uni-mysore.ac.in">vinaykumarn.rsh@compsci.uni-mysore.ac.in</a>,
+          <a href="mailto:rajurkar_am@mgmcen.ac.in">rajurkar_am@mgmcen.ac.in</a>, and
+          <a href="mailto:bisen_rg@mgmcen.ac.in">bisen_rg@mgmcen.ac.in</a>.
+        </li>
+
       </ol>
       <div className="boxb">
-        <ul 
+        <ul
           style={{
             listStyleType: "none",
           }}
