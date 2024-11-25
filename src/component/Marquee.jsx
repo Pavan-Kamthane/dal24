@@ -17,8 +17,7 @@ const Marquee = () => {
             color: "white",
           }}
         >
-          Submission of Camera Ready Paper
-        </p>
+          Submission of Camera Ready Paper and Registration date extended till 5th December 2024        </p>
         <p
           style={{
             margin: "0px",
@@ -27,8 +26,7 @@ const Marquee = () => {
             color: "white",
           }}
         >
-          Registration date extended till 5th December 2024
-        </p>
+          Detail schedule of the Conference will be updated soon        </p>
         <a
           href={callForpaper3}
           download="extended call for paper.jpg"
@@ -57,7 +55,7 @@ const Marquee = () => {
         >
           <strike>
 
-          Paper Submission has been Closed
+            Paper Submission has been Closed
           </strike>
         </p>
         <p
@@ -70,7 +68,7 @@ const Marquee = () => {
         >
           <strike>
 
-          Paper Acceptance Notification: 30 October 2024
+            Paper Acceptance Notification: 30 October 2024
           </strike>
         </p>
       </div>
