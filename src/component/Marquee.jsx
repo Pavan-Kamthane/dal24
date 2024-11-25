@@ -9,6 +9,26 @@ const Marquee = () => {
   return (
     <div className="marquee-container">
       <div className="marquee">
+        <p
+          style={{
+            margin: "0px",
+            padding: "0px 25px",
+            fontSize: "clamp(16px, 2.5vw, 20px)",
+            color: "white",
+          }}
+        >
+          Submission of Camera Ready Paper
+        </p>
+        <p
+          style={{
+            margin: "0px",
+            padding: "0px 25px",
+            fontSize: "clamp(16px, 2.5vw, 20px)",
+            color: "white",
+          }}
+        >
+          Registration date extended till 5th December 2024
+        </p>
         <a
           href={callForpaper3}
           download="extended call for paper.jpg"
@@ -35,7 +55,10 @@ const Marquee = () => {
             color: "white",
           }}
         >
+          <strike>
+
           Paper Submission has been Closed
+          </strike>
         </p>
         <p
           style={{
@@ -45,7 +68,10 @@ const Marquee = () => {
             color: "white",
           }}
         >
+          <strike>
+
           Paper Acceptance Notification: 30 October 2024
+          </strike>
         </p>
       </div>
     </div>
