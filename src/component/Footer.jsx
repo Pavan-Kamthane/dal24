@@ -8,9 +8,9 @@ function Footer() {
     <div className="footer">
       <p>&copy; 2024 All rights reserved | DAL 2024 | MGMCOE, Nanded</p>
       <p>
-        Created By:{" "}
+        Developers:{" "}
         <a  href="https://in.linkedin.com/in/pavankamthane">
-          Pavan Kamthane,
+          Pavan Kamthane (Full Stack Developer),
         </a>
         
         <a  href="https://in.linkedin.com/in/atharva-inamdar">
