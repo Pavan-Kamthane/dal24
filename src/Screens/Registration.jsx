@@ -16,7 +16,7 @@ const Registration = () => {
 
       <p class="bolder">
         To proceed with publishing your submission, you need to do the
-        Registration on or before 25/11/2024 (Deadline for CRP, Payment)
+        Registration on or before 5/12/2024 (Deadline for CRP, Payment)
       </p>
 
       <ol>
