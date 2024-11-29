@@ -11,7 +11,7 @@ const Registration = () => {
         Based on the reviewer comments, all the accepted papers for presentation
         in the 3<sup>rd</sup> International Conference on Data Analytics &
         Learning (DAL’24), need
-        to be registered on or before 25<sup>th</sup> Nov,2024.
+        to be registered on or before 5<sup>th</sup> Dec,2024.
       </p>
 
       <p class="bolder">
