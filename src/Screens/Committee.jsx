@@ -142,7 +142,7 @@ const organizingCommittee = [
 const advisoryPanelItems = [
   "D. B. Phatak, India",
   "V. N. Gudivada, USA",
-  "K. C. Santosh, USA",
+  "KC Santosh, USA",
   "Jose J, Scotland",
   "Kanakanahalli M, Singapore",
   "Kirthiga Reddy, USA",
@@ -172,7 +172,7 @@ const advisoryPanelItems = [
 const advisoryPanelItems1 = [
   "D. B. Phatak, India",
   "V. N. Gudivada, USA",
-  "K. C. Santosh, USA",
+  "KC Santosh, USA",
   "Jose J, Scotland",
   "Kanakanahalli M, Singapore",
   "Kirthiga Reddy, USA",
